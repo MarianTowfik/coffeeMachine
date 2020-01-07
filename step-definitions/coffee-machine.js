@@ -75,8 +75,30 @@ module.exports = function () {
   this.Then(/^the machine dispenses the right amount of coffee into a brewing pot$/,
     function () {
       myMachine.dispenseCoffeeGround(13)
-      assert.strictEqual(myMachine.dispenseBlackCoffee,13)
+      assert.strictEqual(myMachine.dispenseGroundCoffee,13)
   });
 
+  this.Then(/^the machine dispenses the right amount of water into a brewing pot$/,
+    function () {
+      myMachine.dispenseWater(2)
+      assert.strictEqual(myMachine.dispenseTheWater,2);
+    });
+
+  this.Then(/^the machine brews the coffee$/,function () {
+    myMachine.brewCoffee()
+    assert.strictEqual(myMachine.brewTheCoffee, true);
+  });
+
+  this.Then(/^the machine dispenses the brewed coffee in to the dispensed cup$/,
+    function () {
+      myMachine.dispenseBrewedCoffee(213)
+      assert.strictEqual(myMachine.dispenseTheBrewedCoffee, 213);
+  });
+
+  this.Then(/^the user recieves a cup of coffee\.$/,
+    function () {
+      myMachine.receivingCupOfCoffee()
+      assert.strictEqual(myMachine.receivingACupOfCoffee, true );
+  });
 }
 

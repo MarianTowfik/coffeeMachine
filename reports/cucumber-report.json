@@ -14,7 +14,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 671447
+              "duration": 736402
             },
             "line": 10,
             "match": {
@@ -27,7 +27,7 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 202928
+              "duration": 274842
             },
             "line": 11,
             "match": {
@@ -40,7 +40,7 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 359812
+              "duration": 393901
             },
             "line": 12,
             "match": {
@@ -53,7 +53,7 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 289267
+              "duration": 395444
             },
             "line": 13,
             "match": {
@@ -66,7 +66,7 @@
             "name": "the user inserts a 10kr coin",
             "result": {
               "status": "passed",
-              "duration": 279775
+              "duration": 513014
             },
             "line": 14,
             "match": {
@@ -79,7 +79,7 @@
             "name": "presses a start button",
             "result": {
               "status": "passed",
-              "duration": 153554
+              "duration": 286454
             },
             "line": 15,
             "match": {
@@ -92,7 +92,7 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 130895
+              "duration": 301994
             },
             "line": 16,
             "match": {
@@ -105,7 +105,7 @@
             "name": "the machine dispenses the right amount of coffee into a brewing pot",
             "result": {
               "status": "passed",
-              "duration": 157634
+              "duration": 294797
             },
             "line": 17,
             "match": {
@@ -117,43 +117,59 @@
             "keyword": "And ",
             "name": "the machine dispenses the right amount of water into a brewing pot",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 176643
             },
-            "line": 18
+            "line": 18,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:81"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "the machine brews the coffee",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 149518
             },
-            "line": 19
+            "line": 19,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:87"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "the machine dispenses the brewed coffee in to the dispensed cup",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 166862
             },
-            "line": 20
+            "line": 20,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:92"
+            }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "name": "the user recieves a cup of coffee.",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 148933
             },
-            "line": 21
+            "line": 21,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:98"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1396491763
+              "duration": 1872402748
             },
             "hidden": true,
             "match": {

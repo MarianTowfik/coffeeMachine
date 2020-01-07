@@ -9,9 +9,11 @@ class CoffeeMachine {
     this.insertedMoney = 0;
     this.pressStart = false;
     this.dispenseACup = false;
-    this.dispenseBlackCoffee = 0;
-   
+    this.dispenseGroundCoffee = 0;
+    this.dispenseTheWater = 0;
+    this.dispenseTheBrewedCoffee = 0;
     this.brewTheCoffee = false;
+    this.receivingACupOfCoffee = false;
     //Thomas extra
     //this.coffeePerCup = 20;
   }
@@ -43,11 +45,23 @@ class CoffeeMachine {
     this.dispenseACup += amount ;
   }
   dispenseCoffeeGround(amount) {
-    this.dispenseBlackCoffee += amount
+    this.dispenseGroundCoffee += amount;
 
   }
-  receivingCupOfCoffee() {
 
+  dispenseWater(amount) {
+    this.dispenseTheWater += amount;
+  }
+
+  brewCoffee() {
+    this.brewTheCoffee = true;
+  }
+  dispenseBrewedCoffee(amount){
+    this.dispenseTheBrewedCoffee += amount; 
+  }
+
+  receivingCupOfCoffee() {
+    this.receivingACupOfCoffee = true;
   }
 }
 
