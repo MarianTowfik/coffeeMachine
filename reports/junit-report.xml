@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name=";" tests="12" failures="0" skipped="4">
+        <properties>
+            <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000671447">
+        </testcase>
+        <testcase name="And that water is availble" classname=";" time="0.000202928">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000359812">
+        </testcase>
+        <testcase name="And the machine has enough plastic cups" classname=";" time="0.000289267">
+        </testcase>
+        <testcase name="When the user inserts a 10kr coin" classname=";" time="0.000279775">
+        </testcase>
+        <testcase name="And presses a start button" classname=";" time="0.000153554">
+        </testcase>
+        <testcase name="Then the machine dispenses a cup" classname=";" time="0.000130895">
+        </testcase>
+        <testcase name="And the machine dispenses the right amount of coffee into a brewing pot" classname=";" time="0.000157634">
+        </testcase>
+        <testcase name="And the machine dispenses the right amount of water into a brewing pot" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the machine brews the coffee" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the machine dispenses the brewed coffee in to the dispensed cup" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the user recieves a cup of coffee." classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+</testsuites>
