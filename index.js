@@ -14,8 +14,15 @@ class CoffeeMachine {
     this.dispenseTheBrewedCoffee = 0;
     this.brewTheCoffee = false;
     this.receivingACupOfCoffee = false;
-    //Thomas extra
-    //this.coffeePerCup = 20;
+    this.insertedCMoney = 0;
+    this.amountOfCappuccino = 0;
+    this.amountOfSteamedWater = 0;
+    this.dispenseTheCappuccinoBase = 0;
+    this.enoughMilkToSteam = false;
+    this.heatTheWater = false;
+    this.steamTheMilk = 0;
+    this.dispenseTheFoamedMilk = 0;
+    
   }
   //metoder(verb)
   plugIn() {
@@ -63,6 +70,39 @@ class CoffeeMachine {
   receivingCupOfCoffee() {
     this.receivingACupOfCoffee = true;
   }
+
+  insertCMoney(amount) {
+    this.insertedCMoney += amount;
+  }
+
+  dispenseCappuccino(amount) {
+   this.amountOfCappuccino += amount;
+  }
+  dispenseSteamedWater(amount) {
+    this.amountOfSteamedWater += amount;
+  }
+
+  dispenseCappuccinoBase(amount) {
+    this.dispenseTheCappuccinoBase += amount
+  }
+  
+  enoughMilk() {
+    this.enoughMilkToSteam = true;
+  }
+  
+  
+  heatWater() {
+    this.heatTheWater = true;
+  }
+
+  steamMilk(amount) {
+    this.steamTheMilk += amount;
+  }
+  dispenseFoamedMilk(amount) {
+    this.dispenseTheFoamedMilk += amount;
+  }
+
+
 }
 
 //export the coffeemachine class

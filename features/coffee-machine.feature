@@ -7,8 +7,8 @@ Feature:
 
  Background: coffeeMachine
   Given that the machine is plugged in
-  And that water is availble
   And that the machine has enough ground coffee
+  And that water is availble
   And the machine has enough plastic cups
   And presses a start button
   Then the machine dispenses a cup
@@ -20,4 +20,13 @@ Feature:
   And the machine brews the coffee
   And the machine dispenses the brewed coffee in to the dispensed cup
 
-
+ Scenario: cappuccino
+  When the user inserts 20kr
+  And the machine dispenses the right amount of cappuccino into a brewing pot
+  And the machine dispenses the right amount of steamed water into a brewing pot
+  And the machine brews the coffee
+  And the machine dispenses the brewed cappuccino base in to the dispensed cup
+  And the machine has enough milk
+  And the machine heats the water to get the steam to the milk
+  And the machine has steamed the milk
+  And the machine has dispensed the foamed milk into the cup of coffee

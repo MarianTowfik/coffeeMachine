@@ -5,29 +5,67 @@
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";black-coffee" time="0.001428175">
+        <testcase name="Given that the machine is plugged in" classname=";black-coffee" time="0.001612186">
         </testcase>
-        <testcase name="And that water is availble" classname=";black-coffee" time="0.00040076">
+        <testcase name="And that the machine has enough ground coffee" classname=";black-coffee" time="0.000421138">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";black-coffee" time="0.000327391">
+        <testcase name="And that water is availble" classname=";black-coffee" time="0.000692441">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";black-coffee" time="0.000336505">
+        <testcase name="And the machine has enough plastic cups" classname=";black-coffee" time="0.000301461">
         </testcase>
-        <testcase name="And presses a start button" classname=";black-coffee" time="0.000163896">
+        <testcase name="And presses a start button" classname=";black-coffee" time="0.000298247">
         </testcase>
-        <testcase name="Then the machine dispenses a cup" classname=";black-coffee" time="0.00018254">
+        <testcase name="Then the machine dispenses a cup" classname=";black-coffee" time="0.000258206">
         </testcase>
-        <testcase name="Then the user recieves a cup of coffee." classname=";black-coffee" time="0.000142231">
+        <testcase name="Then the user recieves a cup of coffee." classname=";black-coffee" time="0.000234638">
         </testcase>
-        <testcase name="When the user inserts a 10kr coin" classname=";black-coffee" time="0.000198633">
+        <testcase name="When the user inserts a 10kr coin" classname=";black-coffee" time="0.000480941">
         </testcase>
-        <testcase name="And the machine dispenses the right amount of coffee into a brewing pot" classname=";black-coffee" time="0.000156183">
+        <testcase name="And the machine dispenses the right amount of coffee into a brewing pot" classname=";black-coffee" time="0.000295602">
         </testcase>
-        <testcase name="And the machine dispenses the right amount of water into a brewing pot" classname=";black-coffee" time="0.000158289">
+        <testcase name="And the machine dispenses the right amount of water into a brewing pot" classname=";black-coffee" time="0.000177002">
         </testcase>
-        <testcase name="And the machine brews the coffee" classname=";black-coffee" time="0.000178706">
+        <testcase name="And the machine brews the coffee" classname=";black-coffee" time="0.000241845">
         </testcase>
-        <testcase name="And the machine dispenses the brewed coffee in to the dispensed cup" classname=";black-coffee" time="0.000159752">
+        <testcase name="And the machine dispenses the brewed coffee in to the dispensed cup" classname=";black-coffee" time="0.000209189">
+        </testcase>
+    </testsuite>
+    <testsuite name=";cappuccino" tests="16" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";cappuccino" time="0.000171042">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";cappuccino" time="0.000110149">
+        </testcase>
+        <testcase name="And that water is availble" classname=";cappuccino" time="0.00009974">
+        </testcase>
+        <testcase name="And the machine has enough plastic cups" classname=";cappuccino" time="0.000118881">
+        </testcase>
+        <testcase name="And presses a start button" classname=";cappuccino" time="0.000097686">
+        </testcase>
+        <testcase name="Then the machine dispenses a cup" classname=";cappuccino" time="0.000145035">
+        </testcase>
+        <testcase name="Then the user recieves a cup of coffee." classname=";cappuccino" time="0.00012399">
+        </testcase>
+        <testcase name="When the user inserts 20kr" classname=";cappuccino" time="0.000808575">
+        </testcase>
+        <testcase name="And the machine dispenses the right amount of cappuccino into a brewing pot" classname=";cappuccino" time="0.000213487">
+        </testcase>
+        <testcase name="And the machine dispenses the right amount of steamed water into a brewing pot" classname=";cappuccino" time="0.000238693">
+        </testcase>
+        <testcase name="And the machine brews the coffee" classname=";cappuccino" time="0.000125644">
+        </testcase>
+        <testcase name="And the machine dispenses the brewed cappuccino base in to the dispensed cup" classname=";cappuccino" time="0.0002642">
+        </testcase>
+        <testcase name="And the machine has enough milk" classname=";cappuccino" time="0.000259397">
+        </testcase>
+        <testcase name="And the machine heats the water to get the steam to the milk" classname=";cappuccino" time="0.004372286">
+        </testcase>
+        <testcase name="And the machine has steamed the milk" classname=";cappuccino" time="0.000245548">
+        </testcase>
+        <testcase name="And the machine has dispensed the foamed milk into the cup of coffee" classname=";cappuccino" time="0.00019973">
         </testcase>
     </testsuite>
 </testsuites>
