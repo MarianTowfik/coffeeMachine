@@ -15,14 +15,16 @@ class CoffeeMachine {
     this.brewTheCoffee = false;
     this.receivingACupOfCoffee = false;
     this.insertedCMoney = 0;
-    this.amountOfCappuccino = 0;
-    this.amountOfSteamedWater = 0;
-    this.dispenseTheCappuccinoBase = 0;
+    this.amountOfCoffeeBeans = 0;
+    this.amountOfSteamedMilk = 0;
+    this.dispenseTheEspresso = 0;
     this.enoughMilkToSteam = false;
+    this.insertedMoneyC = 0;
     this.heatTheWater = false;
     this.steamTheMilk = 0;
-    this.dispenseTheFoamedMilk = 0;
-    
+    this.dispenseTheSteamedMilk = 0;
+
+
   }
   //metoder(verb)
   plugIn() {
@@ -44,12 +46,13 @@ class CoffeeMachine {
   insertMoney(inserted) {
     this.insertedMoney += inserted;
   }
+
   pressStartButton() {
     this.pressStart = true;
   }
   // internals
   dispenseCup(amount) {
-    this.dispenseACup += amount ;
+    this.dispenseACup += amount;
   }
   dispenseCoffeeGround(amount) {
     this.dispenseGroundCoffee += amount;
@@ -63,34 +66,35 @@ class CoffeeMachine {
   brewCoffee() {
     this.brewTheCoffee = true;
   }
-  dispenseBrewedCoffee(amount){
-    this.dispenseTheBrewedCoffee += amount; 
+  dispenseBrewedCoffee(amount) {
+    this.dispenseTheBrewedCoffee += amount;
   }
 
   receivingCupOfCoffee() {
     this.receivingACupOfCoffee = true;
   }
 
-  insertCMoney(amount) {
-    this.insertedCMoney += amount;
+  insertCMoney(inserted) {
+    this.insertedCMoney += inserted;
   }
-
-  dispenseCappuccino(amount) {
-   this.amountOfCappuccino += amount;
-  }
-  dispenseSteamedWater(amount) {
-    this.amountOfSteamedWater += amount;
-  }
-
-  dispenseCappuccinoBase(amount) {
-    this.dispenseTheCappuccinoBase += amount
-  }
-  
   enoughMilk() {
     this.enoughMilkToSteam = true;
   }
-  
-  
+
+  dispenseCoffeeBeans(amount) {
+    this.amountOfCoffeeBeans += amount;
+  }
+  dispenseMilksteamed(amount) {
+    this.amountOfSteamedMilk += amount;
+  }
+
+  dispenseEspresso(amount) {
+    this.dispenseTheEspresso += amount
+  }
+
+  insertMoneyC(inserted) {
+    this.insertedMoneyC += inserted;
+  }
   heatWater() {
     this.heatTheWater = true;
   }
@@ -98,10 +102,9 @@ class CoffeeMachine {
   steamMilk(amount) {
     this.steamTheMilk += amount;
   }
-  dispenseFoamedMilk(amount) {
-    this.dispenseTheFoamedMilk += amount;
+  dispenseSteamedMilk(amount) {
+    this.dispenseTheSteamedMilk += amount;
   }
-
 
 }
 

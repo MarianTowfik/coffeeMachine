@@ -108,30 +108,36 @@ this.When(/^the user inserts (\d+)kr$/,
     assert.isAtMost(myMachine.insertedCMoney, 20);
   });
 
-  this.When(/^the machine dispenses the right amount of cappuccino into a brewing pot$/,
-    function () {
-      myMachine.dispenseCappuccino(7)
-      assert.strictEqual(myMachine.amountOfCappuccino, 7);
-    });
-
-  this.When(/^the machine dispenses the right amount of steamed water into a brewing pot$/,
-    function () {
-      myMachine.dispenseSteamedWater(1)
-      assert.strictEqual(myMachine.amountOfSteamedWater, 1);
-  });
-
-  this.When(/^the machine dispenses the brewed cappuccino base in to the dispensed cup$/,
-    function () {
-      myMachine.dispenseCappuccinoBase(107)
-      assert.strictEqual(myMachine.dispenseTheCappuccinoBase, 107);
-  });
-  
   this.When(/^the machine has enough milk$/, function () {
     myMachine.enoughMilk()
     assert.strictEqual(myMachine.enoughMilkToSteam, true);
   });
   
+  this.When(/^the machine dispenses the right amount of grounded coffee beans into a brewing pot$/,
+    function () {
+      myMachine.dispenseCoffeeBeans(7)
+      assert.strictEqual(myMachine.amountOfCoffeeBeans, 7);
+    });
+
+  this.When(/^the machine dispenses the right amount of steamed milk into a brewing pot$/,
+    function () {
+      myMachine.dispenseMilksteamed(1)
+      assert.strictEqual(myMachine.amountOfSteamedMilk, 1);
+  });
+
+  this.When(/^the machine dispenses the brewed espresso in to the dispensed cup$/,
+    function () {
+      myMachine.dispenseEspresso(107)
+      assert.strictEqual(myMachine.dispenseTheEspresso, 107);
+  });
   
+  
+  
+  this.When(/^the user inserts (\d+)kr cash$/,
+    function (arg1) {
+      myMachine.insertMoneyC(30)
+      assert.isAtMost(myMachine.insertedMoneyC, 30);
+    });
   this.When(/^the machine heats the water to get the steam to the milk$/,
     function () {
       myMachine.heatWater()
@@ -144,10 +150,10 @@ this.When(/^the user inserts (\d+)kr$/,
   });
 
 
-  this.When(/^the machine has dispensed the foamed milk into the cup of coffee$/,
+  this.When(/^the machine has dispensed the steamed milk into the cup of coffee$/,
     function () {
-      myMachine.dispenseFoamedMilk(1)
-      assert.strictEqual(myMachine.dispenseTheFoamedMilk, 1);
+      myMachine.dispenseSteamedMilk(1)
+      assert.strictEqual(myMachine.dispenseTheSteamedMilk, 1);
   });
 
 

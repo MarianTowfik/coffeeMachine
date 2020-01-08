@@ -20,13 +20,16 @@ Feature:
   And the machine brews the coffee
   And the machine dispenses the brewed coffee in to the dispensed cup
 
- Scenario: cappuccino
+ Scenario: Espresso
   When the user inserts 20kr
-  And the machine dispenses the right amount of cappuccino into a brewing pot
-  And the machine dispenses the right amount of steamed water into a brewing pot
-  And the machine brews the coffee
-  And the machine dispenses the brewed cappuccino base in to the dispensed cup
   And the machine has enough milk
+  And the machine dispenses the right amount of grounded coffee beans into a brewing pot
+  And the machine dispenses the right amount of steamed milk into a brewing pot
+  And the machine brews the coffee
+  And the machine dispenses the brewed espresso in to the dispensed cup
+
+ Scenario: Cappuccino
+  When the user inserts 30kr cash
   And the machine heats the water to get the steam to the milk
   And the machine has steamed the milk
-  And the machine has dispensed the foamed milk into the cup of coffee
+  And the machine has dispensed the steamed milk into the cup of coffee
