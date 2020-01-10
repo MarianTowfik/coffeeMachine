@@ -54,7 +54,7 @@ module.exports = function () {
       "expected the property of numberOfCups to be true after calling the fillWithCups ")
   });
 
-  this.Given(/^the user inserts a 10kr coin$/, function () {
+  this.Given(/^the user inserts (\d+)kr cash$/, function (arg1) {
     myMachine.insertMoney(5);
     myMachine.insertMoney(5);
     assert.strictEqual(myMachine.insertedMoney, 10,
@@ -102,9 +102,10 @@ module.exports = function () {
     });
 
 
-this.When(/^the user inserts (\d+)kr$/,
+  this.When(/^the user inserts (\d+)kr$/,
   function (arg1) {
-    myMachine.insertCMoney(20)
+    myMachine.insertCMoney(10)
+    myMachine.insertCMoney(10)
     assert.isAtMost(myMachine.insertedCMoney, 20);
   });
 
@@ -133,10 +134,10 @@ this.When(/^the user inserts (\d+)kr$/,
   
   
   
-  this.When(/^the user inserts (\d+)kr cash$/,
+  this.When(/^the user inserts (\d+)kr SEK$/,
     function (arg1) {
       myMachine.insertMoneyC(30)
-      assert.isAtMost(myMachine.insertedMoneyC, 30);
+      assert.strictEqual(myMachine.insertedMoneyC, 30);
     });
   this.When(/^the machine heats the water to get the steam to the milk$/,
     function () {
@@ -155,6 +156,8 @@ this.When(/^the user inserts (\d+)kr$/,
       myMachine.dispenseSteamedMilk(1)
       assert.strictEqual(myMachine.dispenseTheSteamedMilk, 1);
   });
+
+
 
 
 

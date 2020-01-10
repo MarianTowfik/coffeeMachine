@@ -75,7 +75,7 @@ class CoffeeMachine {
   }
 
   insertCMoney(inserted) {
-    this.insertedCMoney += inserted;
+    this.insertedCMoney = inserted;
   }
   enoughMilk() {
     this.enoughMilkToSteam = true;
@@ -105,6 +105,10 @@ class CoffeeMachine {
   dispenseSteamedMilk(amount) {
     this.dispenseTheSteamedMilk += amount;
   }
+
+  //paymentTenKr(amount)
+  //this.paymentTenKrSuccess = amount;
+
 
 }
 
