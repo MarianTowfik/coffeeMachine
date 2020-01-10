@@ -1,95 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name=";black-coffee" tests="12" failures="0" skipped="0">
+    <testsuite name=";" tests="13" failures="0" skipped="4">
         <properties>
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";black-coffee" time="0.000685192">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.001037158">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";black-coffee" time="0.000231003">
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000233931">
         </testcase>
-        <testcase name="And that water is availble" classname=";black-coffee" time="0.000201831">
+        <testcase name="And that water is availble" classname=";" time="0.000162425">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";black-coffee" time="0.000163633">
+        <testcase name="And the machine has enough plastic cups" classname=";" time="0.000219183">
         </testcase>
-        <testcase name="And presses a start button" classname=";black-coffee" time="0.000167741">
+        <testcase name="And presses a start button" classname=";" time="0.000152006">
         </testcase>
-        <testcase name="And the machine dispenses the right amount of coffee into a brewing pot" classname=";black-coffee" time="0.0016799">
+        <testcase name="And the machine dispenses the right amount of coffee into a brewing pot" classname=";" time="0.000180312">
         </testcase>
-        <testcase name="And the machine dispenses the right amount of water into a brewing pot" classname=";black-coffee" time="0.000176597">
+        <testcase name="And the machine dispenses the right amount of water into a brewing pot" classname=";" time="0.000147831">
         </testcase>
-        <testcase name="Then the machine dispenses a cup" classname=";black-coffee" time="0.000179435">
+        <testcase name="Then the machine dispenses a cup" classname=";" time="0.000156308">
         </testcase>
-        <testcase name="Then the user recieves a cup of coffee." classname=";black-coffee" time="0.000151001">
+        <testcase name="Then the user recieves a cup of coffee." classname=";" time="0.00013962">
         </testcase>
-        <testcase name="When the user inserts 10kr cash" classname=";black-coffee" time="0.000184466">
+        <testcase name="When the user inserts 10 kr in cash" classname=";">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And the machine brews the coffee" classname=";black-coffee" time="0.000155255">
+        <testcase name="And chooses the coffee type Black coffee" classname=";">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And the machine dispenses the brewed coffee in to the dispensed cup" classname=";black-coffee" time="0.000163799">
+        <testcase name="And presses start" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the machine should serve a cup of Black coffee" classname=";">
+            <skipped message="">
+            </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";espresso" tests="12" failures="0" skipped="0">
+    <testsuite name=";" tests="13" failures="0" skipped="4">
         <properties>
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";espresso" time="0.000113571">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000129772">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";espresso" time="0.000069313">
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000091242">
         </testcase>
-        <testcase name="And that water is availble" classname=";espresso" time="0.000055904">
+        <testcase name="And that water is availble" classname=";" time="0.000087273">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";espresso" time="0.000116254">
+        <testcase name="And the machine has enough plastic cups" classname=";" time="0.000102325">
         </testcase>
-        <testcase name="And presses a start button" classname=";espresso" time="0.000108039">
+        <testcase name="And presses a start button" classname=";" time="0.000098987">
         </testcase>
-        <testcase name="And the machine dispenses the right amount of coffee into a brewing pot" classname=";espresso" time="0.000108635">
+        <testcase name="And the machine dispenses the right amount of coffee into a brewing pot" classname=";" time="0.000096121">
         </testcase>
-        <testcase name="And the machine dispenses the right amount of water into a brewing pot" classname=";espresso" time="0.000089648">
+        <testcase name="And the machine dispenses the right amount of water into a brewing pot" classname=";" time="0.000102898">
         </testcase>
-        <testcase name="Then the machine dispenses a cup" classname=";espresso" time="0.000084382">
+        <testcase name="Then the machine dispenses a cup" classname=";" time="0.00010822">
         </testcase>
-        <testcase name="Then the user recieves a cup of coffee." classname=";espresso" time="0.000105516">
+        <testcase name="Then the user recieves a cup of coffee." classname=";" time="0.00008817">
         </testcase>
-        <testcase name="When the user inserts 20kr" classname=";espresso" time="0.000353556">
+        <testcase name="When the user inserts 20 kr in cash" classname=";">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And the machine brews the coffee" classname=";espresso" time="0.000122476">
+        <testcase name="And chooses the coffee type Espresso" classname=";">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And the machine dispenses the brewed espresso in to the dispensed cup" classname=";espresso" time="0.000288846">
+        <testcase name="And presses start" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the machine should serve a cup of Espresso" classname=";">
+            <skipped message="">
+            </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";cappuccino" tests="13" failures="0" skipped="0">
+    <testsuite name=";" tests="13" failures="0" skipped="4">
         <properties>
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";cappuccino" time="0.000130805">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000135194">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";cappuccino" time="0.000101122">
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000094945">
         </testcase>
-        <testcase name="And that water is availble" classname=";cappuccino" time="0.000099423">
+        <testcase name="And that water is availble" classname=";" time="0.000072312">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";cappuccino" time="0.00009171">
+        <testcase name="And the machine has enough plastic cups" classname=";" time="0.000060283">
         </testcase>
-        <testcase name="And presses a start button" classname=";cappuccino" time="0.000104525">
+        <testcase name="And presses a start button" classname=";" time="0.000054053">
         </testcase>
-        <testcase name="And the machine dispenses the right amount of coffee into a brewing pot" classname=";cappuccino" time="0.000094478">
+        <testcase name="And the machine dispenses the right amount of coffee into a brewing pot" classname=";" time="0.00005373">
         </testcase>
-        <testcase name="And the machine dispenses the right amount of water into a brewing pot" classname=";cappuccino" time="0.000137398">
+        <testcase name="And the machine dispenses the right amount of water into a brewing pot" classname=";" time="0.000055536">
         </testcase>
-        <testcase name="Then the machine dispenses a cup" classname=";cappuccino" time="0.000116322">
+        <testcase name="Then the machine dispenses a cup" classname=";" time="0.000309739">
         </testcase>
-        <testcase name="Then the user recieves a cup of coffee." classname=";cappuccino" time="0.000118091">
+        <testcase name="Then the user recieves a cup of coffee." classname=";" time="0.000105664">
         </testcase>
-        <testcase name="When the user inserts 30kr SEK" classname=";cappuccino" time="0.000397048">
+        <testcase name="When the user inserts 30 kr in cash" classname=";">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And the machine heats the water to get the steam to the milk" classname=";cappuccino" time="0.000284393">
+        <testcase name="And chooses the coffee type Cappuccino" classname=";">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And the machine has steamed the milk" classname=";cappuccino" time="0.000285821">
+        <testcase name="And presses start" classname=";">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And the machine has dispensed the steamed milk into the cup of coffee" classname=";cappuccino" time="0.000218396">
+        <testcase name="Then the machine should serve a cup of Cappuccino" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";cappuccino" tests="11" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";cappuccino" time="0.000156776">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";cappuccino" time="0.0000956">
+        </testcase>
+        <testcase name="And that water is availble" classname=";cappuccino" time="0.000101813">
+        </testcase>
+        <testcase name="And the machine has enough plastic cups" classname=";cappuccino" time="0.000097098">
+        </testcase>
+        <testcase name="And presses a start button" classname=";cappuccino" time="0.000119651">
+        </testcase>
+        <testcase name="And the machine dispenses the right amount of coffee into a brewing pot" classname=";cappuccino" time="0.000121566">
+        </testcase>
+        <testcase name="And the machine dispenses the right amount of water into a brewing pot" classname=";cappuccino" time="0.000144665">
+        </testcase>
+        <testcase name="Then the machine dispenses a cup" classname=";cappuccino" time="0.000120431">
+        </testcase>
+        <testcase name="Then the user recieves a cup of coffee." classname=";cappuccino" time="0.000161675">
+        </testcase>
+        <testcase name="And the machine heats the water to get the steam to the milk" classname=";cappuccino" time="0.000288204">
+        </testcase>
+        <testcase name="And the machine has steamed the milk" classname=";cappuccino" time="0.000172477">
         </testcase>
     </testsuite>
 </testsuites>
