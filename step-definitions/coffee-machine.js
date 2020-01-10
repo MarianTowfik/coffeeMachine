@@ -75,13 +75,13 @@ module.exports = function () {
   this.Then(/^the machine dispenses the right amount of coffee into a brewing pot$/,
     function () {
       myMachine.dispenseCoffeeGround(13)
-      assert.strictEqual(myMachine.dispenseGroundCoffee, 13)
+      assert.isAtLeast(myMachine.dispenseGroundCoffee, 13)
     });
 
   this.Then(/^the machine dispenses the right amount of water into a brewing pot$/,
     function () {
       myMachine.dispenseWater(2)
-      assert.strictEqual(myMachine.dispenseTheWater, 2);
+      assert.isAtLeast(myMachine.dispenseTheWater, 2);
     });
 
   this.Then(/^the machine brews the coffee$/, function () {
@@ -109,22 +109,12 @@ module.exports = function () {
     assert.isAtMost(myMachine.insertedCMoney, 20);
   });
 
-  this.When(/^the machine has enough milk$/, function () {
-    myMachine.enoughMilk()
-    assert.strictEqual(myMachine.enoughMilkToSteam, true);
-  });
   
   this.When(/^the machine dispenses the right amount of grounded coffee beans into a brewing pot$/,
     function () {
       myMachine.dispenseCoffeeBeans(7)
       assert.strictEqual(myMachine.amountOfCoffeeBeans, 7);
     });
-
-  this.When(/^the machine dispenses the right amount of steamed milk into a brewing pot$/,
-    function () {
-      myMachine.dispenseMilksteamed(1)
-      assert.strictEqual(myMachine.amountOfSteamedMilk, 1);
-  });
 
   this.When(/^the machine dispenses the brewed espresso in to the dispensed cup$/,
     function () {
