@@ -20,7 +20,7 @@ kaffemaskinen ska visa på en display vilken sorts kaffe du har valt
 kaffemaskinen ska visa processen på displayen (processing payment, brewing, done)
 kaffemaskinen ska ha fysiska knappar för alla kaffesorter och start
 kaffemaskinen ska visa på displayen när kaffet och/eller mjölken är slut eller när det inte finns tillräckligt för 1 kopp
-kaffemaskinen ska ha uppsamlingsbricka under koppen, ifall man slipper samlas det där, och den ska gå att ta av och tömma
+kaffemaskinen ska ha uppsamlingsbricka under koppen, ifall man spiller samlas det där, och den ska gå att ta av och tömma
 kaffemaskinen ska ha ett myntinkast för mynten, samt en uppfångare där mynten faller ner ifall de inte accepteras
 
 

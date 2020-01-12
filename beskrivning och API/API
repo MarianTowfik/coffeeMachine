@@ -1,0 +1,27 @@
+pluggedIn (boolean)
+Initial value: false;
+-describes if the machine is plugged in 
+
+connectedToWater (boolean)
+Initial value: false
+-describes if the machine is connected to water
+
+amountOfCoffee (number)
+Initial value: 0
+-describes how much ground coffee you can fill the machine with (in grams)
+
+numberOfCups (number)
+Initial value: 0;
+-describes how many cups you can fill the machine with
+
+
+this.dispenseACup 
+Initial value: false
+-describes if the machine dispenses a cup
+
+
+rightAmountOfBlackCoffee (number)
+ Initial value: 0
+ -describes how much coffee there should be in the darkest coffee beverage, and for each beverage you can have less
+
+
