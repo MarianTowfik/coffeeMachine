@@ -52,6 +52,7 @@ module.exports = function () {
       "expected the property of numberOfCups to be true after calling the fillWithCups ")
   });
 
+<<<<<<< HEAD
   this.Given(/^the machine dispenses the right amount of black coffee into a brewing pot$/,
     function () {
       myMachine.dispenseBlackCoffee(13)
@@ -63,6 +64,13 @@ module.exports = function () {
     function () {
       myMachine.dispenseWater(2)
       assert.strictEqual(myMachine.dispenseTheWater, 2);
+=======
+  this.Given(/^the user inserts a 10kr coin$/, function () {
+    myMachine.insertMoney(5);
+    myMachine.insertMoney(5);
+    assert.strictEqual(myMachine.insertedMoney, 10,
+      "expected property insertMoney to be true after calling the method insertedMoney ");
+>>>>>>> parent of a9fdb09... något nytt, idek what anymore
   });
 
 
@@ -93,13 +101,38 @@ module.exports = function () {
       assert.strictEqual(myMachine.receivingACupOfCoffee, true);
     });
 
+<<<<<<< HEAD
+=======
+
+this.When(/^the user inserts (\d+)kr$/,
+  function (arg1) {
+    myMachine.insertCMoney(20)
+    assert.isAtMost(myMachine.insertedCMoney, 20);
+  });
+
+  this.When(/^the machine has enough milk$/, function () {
+    myMachine.enoughMilk()
+    assert.strictEqual(myMachine.enoughMilkToSteam, true);
+  });
+>>>>>>> parent of a9fdb09... något nytt, idek what anymore
   
   
 
   
   
-
-
+<<<<<<< HEAD
+=======
+  this.When(/^the user inserts (\d+)kr cash$/,
+    function (arg1) {
+      myMachine.insertMoneyC(30)
+      assert.isAtMost(myMachine.insertedMoneyC, 30);
+    });
+  this.When(/^the machine heats the water to get the steam to the milk$/,
+    function () {
+      myMachine.heatWater()
+      assert.strictEqual(myMachine.heatTheWater, true);
+  });
+>>>>>>> parent of a9fdb09... något nytt, idek what anymore
 
 
 

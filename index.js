@@ -39,16 +39,27 @@ class CoffeeMachine {
 
 
 
+<<<<<<< HEAD
   dispenseBlackCoffee(amount) {
     this.rightAmountOfBlackCoffee = amount;
+=======
+  insertCMoney(inserted) {
+    this.insertedCMoney += inserted;
+  }
+  enoughMilk() {
+    this.enoughMilkToSteam = true;
+>>>>>>> parent of a9fdb09... något nytt, idek what anymore
   }
 
   dispenseWater(amount) {
     this.dispenseTheWater = amount;
   }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> parent of a9fdb09... något nytt, idek what anymore
 }
 
 //export the coffeemachine class
