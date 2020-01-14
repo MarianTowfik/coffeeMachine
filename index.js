@@ -6,14 +6,12 @@ class CoffeeMachine {
     this.connectedToWater = false;
     this.amountOfCoffee = 0;
     this.numberOfCups = 0;
-    this.insertedMoney = 0;
-    this.pressStart = false;
     this.dispenseACup = false;
-    this.dispenseBlackCoffee = 0;
-   
-    this.brewTheCoffee = false;
-    //Thomas extra
-    //this.coffeePerCup = 20;
+    this.rightAmountOfBlackCoffee = 0;
+    this.dispenseTheWater = 0;
+    
+
+
   }
   //metoder(verb)
   plugIn() {
@@ -23,32 +21,45 @@ class CoffeeMachine {
     this.connectedToWater = true;
   }
   fillWithCoffee(amount) {
+    // 1000g
     //amount in gram
-    this.amountOfCoffee += amount;
+    this.amountOfCoffee = + amount;
   }
   fillWithCups(amount) {
     //amount (number of cups)
     this.numberOfCups += amount;
   }
-
-  //user choice
-  insertMoney(inserted) {
-    this.insertedMoney += inserted;
-  }
-  pressStartButton() {
-    this.pressStart = true;
-  }
-  // internals
-  dispenseCup(amount) {
-    this.dispenseACup += amount ;
-  }
-  dispenseCoffeeGround(amount) {
-    this.dispenseBlackCoffee += amount
+  dispenseCup() {
+      this.dispenseACup = true;
 
   }
-  receivingCupOfCoffee() {
 
+
+
+
+
+
+<<<<<<< HEAD
+  dispenseBlackCoffee(amount) {
+    this.rightAmountOfBlackCoffee = amount;
+=======
+  insertCMoney(inserted) {
+    this.insertedCMoney += inserted;
   }
+  enoughMilk() {
+    this.enoughMilkToSteam = true;
+>>>>>>> parent of a9fdb09... något nytt, idek what anymore
+  }
+
+  dispenseWater(amount) {
+    this.dispenseTheWater = amount;
+  }
+
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> parent of a9fdb09... något nytt, idek what anymore
 }
 
 //export the coffeemachine class

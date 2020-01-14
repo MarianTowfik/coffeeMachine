@@ -1,0 +1,29 @@
+Standardkrav:
+kaffemaskinen ska kopplas till el
+kaffemaskinen ska ge ifrån sig ett start-ljud när el kopplas till
+kaffemaskinen ska vara kopplad till vattenuttag
+kaffemaskinen inte ha någon dryck som förval vid start
+kaffemskinen ska kunna släppa ner en kopp av sig själv
+man ska kunna fylla på max 100 koppar 
+man ska kunna fylla på max 1kg malt kaffe
+man ska kunna fylla på max 3L mjölk i ett kylt fack
+kaffemaskinen ska kunna brygga tre sorters kaffe (svart kaffe, espresso och cappuccino)
+kaffemaskinen ska kunna koka vatten 
+kaffemaskinen ska kunna skumma mjölk
+kaffemaskinen ska ta 10kr för en kopp svart kaffe
+kaffemaskinen ska ta 20kr för en kopp espresso
+kaffemaskinen ska ta 30kr för en kopp cappuccino
+kaffemaskinen ska kunna ta betalt med kort och kontanter
+
+Designkrav:
+kaffemaskinen ska visa på en display vilken sorts kaffe du har valt
+kaffemaskinen ska visa processen på displayen (processing payment, brewing, done)
+kaffemaskinen ska ha fysiska knappar för alla kaffesorter och start
+kaffemaskinen ska visa på displayen när kaffet och/eller mjölken är slut eller när det inte finns tillräckligt för 1 kopp
+kaffemaskinen ska ha uppsamlingsbricka under koppen, ifall man spiller samlas det där, och den ska gå att ta av och tömma
+kaffemaskinen ska ha ett myntinkast för mynten, samt en uppfångare där mynten faller ner ifall de inte accepteras
+
+
+
+
+
