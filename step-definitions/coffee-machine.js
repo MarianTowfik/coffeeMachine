@@ -52,39 +52,65 @@ module.exports = function () {
       "expected the property of numberOfCups to be true after calling the fillWithCups ")
   });
 
-<<<<<<< HEAD
+  this.Then(/^the machine dispenses a cup/, function () {
+    myMachine.dispenseCup(1);
+    assert.isAtLeast(myMachine.dispenseACup, 1);
+
+  });
+
   this.Given(/^the machine dispenses the right amount of black coffee into a brewing pot$/,
     function () {
       myMachine.dispenseBlackCoffee(13)
-      assert.isAtMost(myMachine.rightAmountOfBlackCoffee,13)
-  });
+      assert.isAtMost(myMachine.rightAmountOfBlackCoffee, 13)
+    });
 
 
   this.Given(/^the machine dispenses the right amount of water into a brewing pot$/,
     function () {
       myMachine.dispenseWater(2)
       assert.strictEqual(myMachine.dispenseTheWater, 2);
-=======
-  this.Given(/^the user inserts a 10kr coin$/, function () {
-    myMachine.insertMoney(5);
-    myMachine.insertMoney(5);
-    assert.strictEqual(myMachine.insertedMoney, 10,
-      "expected property insertMoney to be true after calling the method insertedMoney ");
->>>>>>> parent of a9fdb09... något nytt, idek what anymore
+    });
+
+
+  this.Then(/^the machine dispenses the right amount of coffee into a brewing pot$/,
+    function () {
+      myMachine.dispenseCoffee(6)
+      assert.strictEqual(myMachine.dispensedCoffee, 6);
   });
+  
+  
+  
+  this.Then(/^the machine heats the water to get the steam to the milk$/,
+    function () {
+      myMachine.heatWater()
+      assert.strictEqual(myMachine.heatedWater, true);
+  });
+  
+  
+  this.Then(/^the machine has steamed the milk$/,
+    function () {
+      myMachine.steamMilk()
+      assert.deepEqual(myMachine.steamedMilk, true);
+  });
+  
 
-
-
-
+  this.Then(/^the machine adds the steamed milk on top of the coffee$/,
+    function () {
+      myMachine.addSteamedMilk()
+      assert.deepEqual(myMachine.addTheSteamedMilk, true);
+  });
+  
+  
+  
+  
+  
+  
+  
+  
+  
   this.When(/^presses a start button$/, function () {
     myMachine.pressStartButton();
     assert.strictEqual(myMachine.pressStart, true, "expected property pressStartButton to be true after calling the method pressStartButton ");
-  });
-
-  this.Then(/^the machine dispenses a cup/, function () {
-    myMachine.dispenseCup(1);
-    assert.isAtLeast(myMachine.dispenseACup, 1);
-
   });
 
   
@@ -93,46 +119,17 @@ module.exports = function () {
     assert.strictEqual(myMachine.brewTheCoffee, true);
   });
 
-  
-
   this.Then(/^the user recieves a cup of coffee\.$/,
     function () {
       myMachine.receivingCupOfCoffee()
       assert.strictEqual(myMachine.receivingACupOfCoffee, true);
     });
 
-<<<<<<< HEAD
-=======
-
-this.When(/^the user inserts (\d+)kr$/,
-  function (arg1) {
-    myMachine.insertCMoney(20)
-    assert.isAtMost(myMachine.insertedCMoney, 20);
-  });
-
-  this.When(/^the machine has enough milk$/, function () {
-    myMachine.enoughMilk()
-    assert.strictEqual(myMachine.enoughMilkToSteam, true);
-  });
->>>>>>> parent of a9fdb09... något nytt, idek what anymore
   
   
 
   
   
-<<<<<<< HEAD
-=======
-  this.When(/^the user inserts (\d+)kr cash$/,
-    function (arg1) {
-      myMachine.insertMoneyC(30)
-      assert.isAtMost(myMachine.insertedMoneyC, 30);
-    });
-  this.When(/^the machine heats the water to get the steam to the milk$/,
-    function () {
-      myMachine.heatWater()
-      assert.strictEqual(myMachine.heatTheWater, true);
-  });
->>>>>>> parent of a9fdb09... något nytt, idek what anymore
 
 
 

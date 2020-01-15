@@ -7,8 +7,14 @@ class CoffeeMachine {
     this.amountOfCoffee = 0;
     this.numberOfCups = 0;
     this.dispenseACup = false;
+    this.brewTheCoffee = false;
     this.rightAmountOfBlackCoffee = 0;
     this.dispenseTheWater = 0;
+    this.dispensedCoffee = 0;
+    this.heatedWater = false;
+    this.steamedMilk = false;
+    this.addTheSteamedMilk = false;
+
     
 
 
@@ -34,32 +40,38 @@ class CoffeeMachine {
 
   }
 
+  brewCoffee() {
+    this.brewTheCoffee = true;
+  }
 
 
-
-
-
-<<<<<<< HEAD
   dispenseBlackCoffee(amount) {
     this.rightAmountOfBlackCoffee = amount;
-=======
-  insertCMoney(inserted) {
-    this.insertedCMoney += inserted;
-  }
-  enoughMilk() {
-    this.enoughMilkToSteam = true;
->>>>>>> parent of a9fdb09... något nytt, idek what anymore
   }
 
   dispenseWater(amount) {
     this.dispenseTheWater = amount;
   }
 
-<<<<<<< HEAD
+  dispenseCoffee(amount) {
+    this.dispensedCoffee = amount;
+  }
+  heatWater() {
+    this.heatedWater = true;
+  }
 
 
-=======
->>>>>>> parent of a9fdb09... något nytt, idek what anymore
+  steamMilk() {
+    this.steamedMilk = true;
+  }
+
+  addSteamedMilk() {
+    this.addTheSteamedMilk = true;
+  }
+
+
+
+
 }
 
 //export the coffeemachine class
