@@ -5,21 +5,21 @@
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";black-coffee" time="0.001174471">
+        <testcase name="Given that the machine is plugged in" classname=";black-coffee" time="0.001085598">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";black-coffee" time="0.000374143">
+        <testcase name="And that the machine has enough ground coffee" classname=";black-coffee" time="0.000340572">
         </testcase>
-        <testcase name="And that water is availble" classname=";black-coffee" time="0.00027839">
+        <testcase name="And that water is availble" classname=";black-coffee" time="0.000182357">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";black-coffee" time="0.00040991">
+        <testcase name="And the machine has enough plastic cups" classname=";black-coffee" time="0.000445823">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";black-coffee" time="0.000279103">
+        <testcase name="And the machine dispenses a cup" classname=";black-coffee" time="0.000257209">
         </testcase>
-        <testcase name="And the machine dispenses the right amount of black coffee into a brewing pot" classname=";black-coffee" time="0.000166756">
+        <testcase name="And the machine dispenses the right amount of black coffee into a brewing pot" classname=";black-coffee" time="0.000263153">
         </testcase>
-        <testcase name="And the machine dispenses the right amount of water into a brewing pot" classname=";black-coffee" time="0.000205748">
+        <testcase name="And the machine dispenses the right amount of water into a brewing pot" classname=";black-coffee" time="0.000234603">
         </testcase>
-        <testcase name="And the machine brews the coffee" classname=";black-coffee" time="0.000345877">
+        <testcase name="And the machine brews the coffee" classname=";black-coffee" time="0.000232084">
         </testcase>
     </testsuite>
     <testsuite name=";espresso" tests="8" failures="0" skipped="0">
@@ -27,21 +27,21 @@
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";espresso" time="0.000143661">
+        <testcase name="Given that the machine is plugged in" classname=";espresso" time="0.000142819">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";espresso" time="0.000118491">
+        <testcase name="And that the machine has enough ground coffee" classname=";espresso" time="0.000113042">
         </testcase>
-        <testcase name="And that water is availble" classname=";espresso" time="0.000097981">
+        <testcase name="And that water is availble" classname=";espresso" time="0.000152853">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";espresso" time="0.00009374">
+        <testcase name="And the machine has enough plastic cups" classname=";espresso" time="0.000123274">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";espresso" time="0.000114957">
+        <testcase name="And the machine dispenses a cup" classname=";espresso" time="0.000124587">
         </testcase>
-        <testcase name="And the machine dispenses the right amount of coffee into a brewing pot" classname=";espresso" time="0.000373435">
+        <testcase name="And the machine dispenses the right amount of coffee into a brewing pot" classname=";espresso" time="0.00019762">
         </testcase>
-        <testcase name="And the machine dispenses the right amount of water into a brewing pot" classname=";espresso" time="0.000129518">
+        <testcase name="And the machine dispenses the right amount of water into a brewing pot" classname=";espresso" time="0.000091909">
         </testcase>
-        <testcase name="And the machine brews the coffee" classname=";espresso" time="0.000100565">
+        <testcase name="And the machine brews the coffee" classname=";espresso" time="0.000081962">
         </testcase>
     </testsuite>
     <testsuite name=";cappuccino" tests="11" failures="0" skipped="0">
@@ -49,145 +49,119 @@
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";cappuccino" time="0.000132154">
+        <testcase name="Given that the machine is plugged in" classname=";cappuccino" time="0.000112809">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";cappuccino" time="0.000104184">
+        <testcase name="And that the machine has enough ground coffee" classname=";cappuccino" time="0.000080655">
         </testcase>
-        <testcase name="And that water is availble" classname=";cappuccino" time="0.000096632">
+        <testcase name="And that water is availble" classname=";cappuccino" time="0.000086727">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";cappuccino" time="0.000103291">
+        <testcase name="And the machine has enough plastic cups" classname=";cappuccino" time="0.000085047">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";cappuccino" time="0.000094672">
+        <testcase name="And the machine dispenses a cup" classname=";cappuccino" time="0.000071858">
         </testcase>
-        <testcase name="And the machine dispenses the right amount of coffee into a brewing pot" classname=";cappuccino" time="0.000113387">
+        <testcase name="And the machine dispenses the right amount of coffee into a brewing pot" classname=";cappuccino" time="0.000075616">
         </testcase>
-        <testcase name="And the machine dispenses the right amount of water into a brewing pot" classname=";cappuccino" time="0.000291051">
+        <testcase name="And the machine dispenses the right amount of water into a brewing pot" classname=";cappuccino" time="0.000078322">
         </testcase>
-        <testcase name="And the machine brews the coffee" classname=";cappuccino" time="0.000104898">
+        <testcase name="And the machine brews the coffee" classname=";cappuccino" time="0.00011447">
         </testcase>
-        <testcase name="And the machine heats the water to get the steam to the milk" classname=";cappuccino" time="0.000262168">
+        <testcase name="And the machine heats the water to get the steam to the milk" classname=";cappuccino" time="0.000367254">
         </testcase>
-        <testcase name="And the machine has steamed the milk" classname=";cappuccino" time="0.000597816">
+        <testcase name="And the machine has steamed the milk" classname=";cappuccino" time="0.000485178">
         </testcase>
-        <testcase name="And the machine adds the steamed milk on top of the coffee" classname=";cappuccino" time="0.000302435">
+        <testcase name="And the machine adds the steamed milk on top of the coffee" classname=";cappuccino" time="0.000195995">
         </testcase>
     </testsuite>
-    <testsuite name=";right-amount-(cash)" tests="9" failures="0" skipped="4">
+    <testsuite name=";right-amount-(cash)" tests="9" failures="0" skipped="0">
         <properties>
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";right-amount-(cash)" time="0.000157067">
+        <testcase name="Given that the machine is plugged in" classname=";right-amount-(cash)" time="0.000145854">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";right-amount-(cash)" time="0.000062995">
+        <testcase name="And that the machine has enough ground coffee" classname=";right-amount-(cash)" time="0.000089221">
         </testcase>
-        <testcase name="And that water is availble" classname=";right-amount-(cash)" time="0.000062534">
+        <testcase name="And that water is availble" classname=";right-amount-(cash)" time="0.000115557">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";right-amount-(cash)" time="0.000054518">
+        <testcase name="And the machine has enough plastic cups" classname=";right-amount-(cash)" time="0.000079956">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";right-amount-(cash)" time="0.000056687">
+        <testcase name="And the machine dispenses a cup" classname=";right-amount-(cash)" time="0.00006951">
         </testcase>
-        <testcase name="When the user inserts 10 kr in cash" classname=";right-amount-(cash)">
-            <skipped message="">
-            </skipped>
+        <testcase name="When the user inserts 10 kr in cash" classname=";right-amount-(cash)" time="0.000285108">
         </testcase>
-        <testcase name="And chooses the coffee type Black coffee" classname=";right-amount-(cash)">
-            <skipped message="">
-            </skipped>
+        <testcase name="And chooses the coffee type Black coffee" classname=";right-amount-(cash)" time="0.000306137">
         </testcase>
-        <testcase name="And presses start" classname=";right-amount-(cash)">
-            <skipped message="">
-            </skipped>
+        <testcase name="And presses start" classname=";right-amount-(cash)" time="0.00024462">
         </testcase>
-        <testcase name="Then the user recieves a cup of 1" classname=";right-amount-(cash)">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the user receieves a cup of coffee" classname=";right-amount-(cash)" time="0.000249676">
         </testcase>
     </testsuite>
-    <testsuite name=";right-amount-(cash)" tests="9" failures="0" skipped="4">
+    <testsuite name=";right-amount-(cash)" tests="9" failures="0" skipped="0">
         <properties>
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";right-amount-(cash)" time="0.000124355">
+        <testcase name="Given that the machine is plugged in" classname=";right-amount-(cash)" time="0.00011804">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";right-amount-(cash)" time="0.000082867">
+        <testcase name="And that the machine has enough ground coffee" classname=";right-amount-(cash)" time="0.000074613">
         </testcase>
-        <testcase name="And that water is availble" classname=";right-amount-(cash)" time="0.000074013">
+        <testcase name="And that water is availble" classname=";right-amount-(cash)" time="0.000056037">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";right-amount-(cash)" time="0.000094632">
+        <testcase name="And the machine has enough plastic cups" classname=";right-amount-(cash)" time="0.000053085">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";right-amount-(cash)" time="0.000127914">
+        <testcase name="And the machine dispenses a cup" classname=";right-amount-(cash)" time="0.000052063">
         </testcase>
-        <testcase name="When the user inserts 20 kr in cash" classname=";right-amount-(cash)">
-            <skipped message="">
-            </skipped>
+        <testcase name="When the user inserts 20 kr in cash" classname=";right-amount-(cash)" time="0.00005884">
         </testcase>
-        <testcase name="And chooses the coffee type Espresso" classname=";right-amount-(cash)">
-            <skipped message="">
-            </skipped>
+        <testcase name="And chooses the coffee type Espresso" classname=";right-amount-(cash)" time="0.000183491">
         </testcase>
-        <testcase name="And presses start" classname=";right-amount-(cash)">
-            <skipped message="">
-            </skipped>
+        <testcase name="And presses start" classname=";right-amount-(cash)" time="0.000077148">
         </testcase>
-        <testcase name="Then the user recieves a cup of 1" classname=";right-amount-(cash)">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the user receieves a cup of coffee" classname=";right-amount-(cash)" time="0.000106194">
         </testcase>
     </testsuite>
-    <testsuite name=";right-amount-(cash)" tests="9" failures="0" skipped="4">
+    <testsuite name=";right-amount-(cash)" tests="9" failures="0" skipped="0">
         <properties>
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";right-amount-(cash)" time="0.00012266">
+        <testcase name="Given that the machine is plugged in" classname=";right-amount-(cash)" time="0.0001445">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";right-amount-(cash)" time="0.000081125">
+        <testcase name="And that the machine has enough ground coffee" classname=";right-amount-(cash)" time="0.00010329">
         </testcase>
-        <testcase name="And that water is availble" classname=";right-amount-(cash)" time="0.0000699">
+        <testcase name="And that water is availble" classname=";right-amount-(cash)" time="0.000092596">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";right-amount-(cash)" time="0.000088796">
+        <testcase name="And the machine has enough plastic cups" classname=";right-amount-(cash)" time="0.000102413">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";right-amount-(cash)" time="0.000076104">
+        <testcase name="And the machine dispenses a cup" classname=";right-amount-(cash)" time="0.000135554">
         </testcase>
-        <testcase name="When the user inserts 30 kr in cash" classname=";right-amount-(cash)">
-            <skipped message="">
-            </skipped>
+        <testcase name="When the user inserts 30 kr in cash" classname=";right-amount-(cash)" time="0.000132627">
         </testcase>
-        <testcase name="And chooses the coffee type Cappuccino" classname=";right-amount-(cash)">
-            <skipped message="">
-            </skipped>
+        <testcase name="And chooses the coffee type Cappuccino" classname=";right-amount-(cash)" time="0.000704322">
         </testcase>
-        <testcase name="And presses start" classname=";right-amount-(cash)">
-            <skipped message="">
-            </skipped>
+        <testcase name="And presses start" classname=";right-amount-(cash)" time="0.000110839">
         </testcase>
-        <testcase name="Then the user recieves a cup of 1" classname=";right-amount-(cash)">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the user receieves a cup of coffee" classname=";right-amount-(cash)" time="0.000171159">
         </testcase>
     </testsuite>
-    <testsuite name=";failed-payment(cash)" tests="9" failures="0" skipped="4">
+    <testsuite name=";failed-payment(cash)" tests="9" failures="0" skipped="3">
         <properties>
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";failed-payment(cash)" time="0.000227578">
+        <testcase name="Given that the machine is plugged in" classname=";failed-payment(cash)" time="0.000088905">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";failed-payment(cash)" time="0.000098092">
+        <testcase name="And that the machine has enough ground coffee" classname=";failed-payment(cash)" time="0.000075127">
         </testcase>
-        <testcase name="And that water is availble" classname=";failed-payment(cash)" time="0.000072695">
+        <testcase name="And that water is availble" classname=";failed-payment(cash)" time="0.00005608">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";failed-payment(cash)" time="0.000103625">
+        <testcase name="And the machine has enough plastic cups" classname=";failed-payment(cash)" time="0.000066445">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";failed-payment(cash)" time="0.00015108">
+        <testcase name="And the machine dispenses a cup" classname=";failed-payment(cash)" time="0.000054577">
         </testcase>
-        <testcase name="When the user inserts the 9" classname=";failed-payment(cash)">
-            <skipped message="">
-            </skipped>
+        <testcase name="When the user inserts the 9 of cash" classname=";failed-payment(cash)" time="0.000221719">
         </testcase>
-        <testcase name="And chooses the beverage 0" classname=";failed-payment(cash)">
+        <testcase name="And chooses the beverage Black coffee" classname=";failed-payment(cash)">
             <skipped message="">
             </skipped>
         </testcase>
@@ -195,31 +169,29 @@
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then the user recieves a cup of Black coffee" classname=";failed-payment(cash)">
+        <testcase name="Then the user does not receieves a cup of coffee" classname=";failed-payment(cash)">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";failed-payment(cash)" tests="9" failures="0" skipped="4">
+    <testsuite name=";failed-payment(cash)" tests="9" failures="0" skipped="3">
         <properties>
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";failed-payment(cash)" time="0.000113911">
+        <testcase name="Given that the machine is plugged in" classname=";failed-payment(cash)" time="0.000141226">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";failed-payment(cash)" time="0.000105897">
+        <testcase name="And that the machine has enough ground coffee" classname=";failed-payment(cash)" time="0.000095312">
         </testcase>
-        <testcase name="And that water is availble" classname=";failed-payment(cash)" time="0.000088916">
+        <testcase name="And that water is availble" classname=";failed-payment(cash)" time="0.000089707">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";failed-payment(cash)" time="0.000099232">
+        <testcase name="And the machine has enough plastic cups" classname=";failed-payment(cash)" time="0.000091229">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";failed-payment(cash)" time="0.000121087">
+        <testcase name="And the machine dispenses a cup" classname=";failed-payment(cash)" time="0.000077043">
         </testcase>
-        <testcase name="When the user inserts the 19" classname=";failed-payment(cash)">
-            <skipped message="">
-            </skipped>
+        <testcase name="When the user inserts the 19 of cash" classname=";failed-payment(cash)" time="0.000079552">
         </testcase>
-        <testcase name="And chooses the beverage 0" classname=";failed-payment(cash)">
+        <testcase name="And chooses the beverage Espresso" classname=";failed-payment(cash)">
             <skipped message="">
             </skipped>
         </testcase>
@@ -227,31 +199,29 @@
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then the user recieves a cup of Espresso" classname=";failed-payment(cash)">
+        <testcase name="Then the user does not receieves a cup of coffee" classname=";failed-payment(cash)">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";failed-payment(cash)" tests="9" failures="0" skipped="4">
+    <testsuite name=";failed-payment(cash)" tests="9" failures="0" skipped="3">
         <properties>
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";failed-payment(cash)" time="0.000149388">
+        <testcase name="Given that the machine is plugged in" classname=";failed-payment(cash)" time="0.000129064">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";failed-payment(cash)" time="0.000212212">
+        <testcase name="And that the machine has enough ground coffee" classname=";failed-payment(cash)" time="0.000105729">
         </testcase>
-        <testcase name="And that water is availble" classname=";failed-payment(cash)" time="0.000177797">
+        <testcase name="And that water is availble" classname=";failed-payment(cash)" time="0.000089548">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";failed-payment(cash)" time="0.000128322">
+        <testcase name="And the machine has enough plastic cups" classname=";failed-payment(cash)" time="0.000108055">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";failed-payment(cash)" time="0.000863964">
+        <testcase name="And the machine dispenses a cup" classname=";failed-payment(cash)" time="0.000108767">
         </testcase>
-        <testcase name="When the user inserts the 29" classname=";failed-payment(cash)">
-            <skipped message="">
-            </skipped>
+        <testcase name="When the user inserts the 29 of cash" classname=";failed-payment(cash)" time="0.000135577">
         </testcase>
-        <testcase name="And chooses the beverage 0" classname=";failed-payment(cash)">
+        <testcase name="And chooses the beverage Cappuccino" classname=";failed-payment(cash)">
             <skipped message="">
             </skipped>
         </testcase>
@@ -259,35 +229,29 @@
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then the user recieves a cup of Cappuccino" classname=";failed-payment(cash)">
+        <testcase name="Then the user does not receieves a cup of coffee" classname=";failed-payment(cash)">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";right-amount-(sek-card)" tests="10" failures="0" skipped="5">
+    <testsuite name=";right-amount-(sek-card)" tests="9" failures="0" skipped="3">
         <properties>
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";right-amount-(sek-card)" time="0.000115193">
+        <testcase name="Given that the machine is plugged in" classname=";right-amount-(sek-card)" time="0.000102651">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";right-amount-(sek-card)" time="0.000088792">
+        <testcase name="And that the machine has enough ground coffee" classname=";right-amount-(sek-card)" time="0.000096071">
         </testcase>
-        <testcase name="And that water is availble" classname=";right-amount-(sek-card)" time="0.000085444">
+        <testcase name="And that water is availble" classname=";right-amount-(sek-card)" time="0.00008211">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";right-amount-(sek-card)" time="0.000096517">
+        <testcase name="And the machine has enough plastic cups" classname=";right-amount-(sek-card)" time="0.0001104">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";right-amount-(sek-card)" time="0.000216981">
+        <testcase name="And the machine dispenses a cup" classname=";right-amount-(sek-card)" time="0.00011502">
         </testcase>
-        <testcase name="When the user inserts the 10" classname=";right-amount-(sek-card)">
-            <skipped message="">
-            </skipped>
+        <testcase name="When the user inserts the 10" classname=";right-amount-(sek-card)" time="0.000284179">
         </testcase>
-        <testcase name="And inserts 0" classname=";right-amount-(sek-card)">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And chooses the beverage 0" classname=";right-amount-(sek-card)">
+        <testcase name="And chooses the beverage Black coffee" classname=";right-amount-(sek-card)">
             <skipped message="">
             </skipped>
         </testcase>
@@ -295,35 +259,29 @@
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then the user recieves a cup of Black coffee" classname=";right-amount-(sek-card)">
+        <testcase name="Then the user receieves a cup of coffee" classname=";right-amount-(sek-card)">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";right-amount-(sek-card)" tests="10" failures="0" skipped="5">
+    <testsuite name=";right-amount-(sek-card)" tests="9" failures="0" skipped="3">
         <properties>
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";right-amount-(sek-card)" time="0.000087182">
+        <testcase name="Given that the machine is plugged in" classname=";right-amount-(sek-card)" time="0.000143973">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";right-amount-(sek-card)" time="0.000088964">
+        <testcase name="And that the machine has enough ground coffee" classname=";right-amount-(sek-card)" time="0.000096504">
         </testcase>
-        <testcase name="And that water is availble" classname=";right-amount-(sek-card)" time="0.000063305">
+        <testcase name="And that water is availble" classname=";right-amount-(sek-card)" time="0.000085544">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";right-amount-(sek-card)" time="0.000073396">
+        <testcase name="And the machine has enough plastic cups" classname=";right-amount-(sek-card)" time="0.000084885">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";right-amount-(sek-card)" time="0.000077679">
+        <testcase name="And the machine dispenses a cup" classname=";right-amount-(sek-card)" time="0.000115859">
         </testcase>
-        <testcase name="When the user inserts the 20" classname=";right-amount-(sek-card)">
-            <skipped message="">
-            </skipped>
+        <testcase name="When the user inserts the 20" classname=";right-amount-(sek-card)" time="0.000138599">
         </testcase>
-        <testcase name="And inserts 0" classname=";right-amount-(sek-card)">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And chooses the beverage 0" classname=";right-amount-(sek-card)">
+        <testcase name="And chooses the beverage Espresso" classname=";right-amount-(sek-card)">
             <skipped message="">
             </skipped>
         </testcase>
@@ -331,35 +289,29 @@
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then the user recieves a cup of Espresso" classname=";right-amount-(sek-card)">
+        <testcase name="Then the user receieves a cup of coffee" classname=";right-amount-(sek-card)">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";right-amount-(sek-card)" tests="10" failures="0" skipped="5">
+    <testsuite name=";right-amount-(sek-card)" tests="9" failures="0" skipped="3">
         <properties>
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";right-amount-(sek-card)" time="0.00011584">
+        <testcase name="Given that the machine is plugged in" classname=";right-amount-(sek-card)" time="0.000114734">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";right-amount-(sek-card)" time="0.0000852">
+        <testcase name="And that the machine has enough ground coffee" classname=";right-amount-(sek-card)" time="0.000091281">
         </testcase>
-        <testcase name="And that water is availble" classname=";right-amount-(sek-card)" time="0.000068202">
+        <testcase name="And that water is availble" classname=";right-amount-(sek-card)" time="0.000133896">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";right-amount-(sek-card)" time="0.000074514">
+        <testcase name="And the machine has enough plastic cups" classname=";right-amount-(sek-card)" time="0.000230735">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";right-amount-(sek-card)" time="0.000078387">
+        <testcase name="And the machine dispenses a cup" classname=";right-amount-(sek-card)" time="0.000098571">
         </testcase>
-        <testcase name="When the user inserts the 30" classname=";right-amount-(sek-card)">
-            <skipped message="">
-            </skipped>
+        <testcase name="When the user inserts the 30" classname=";right-amount-(sek-card)" time="0.000148744">
         </testcase>
-        <testcase name="And inserts 0" classname=";right-amount-(sek-card)">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And chooses the beverage 0" classname=";right-amount-(sek-card)">
+        <testcase name="And chooses the beverage Cappuccino" classname=";right-amount-(sek-card)">
             <skipped message="">
             </skipped>
         </testcase>
@@ -367,35 +319,31 @@
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then the user recieves a cup of Cappuccino" classname=";right-amount-(sek-card)">
+        <testcase name="Then the user receieves a cup of coffee" classname=";right-amount-(sek-card)">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";failed-payment(sek-card)" tests="11" failures="0" skipped="6">
+    <testsuite name=";failed-payment(sek-card)" tests="10" failures="0" skipped="5">
         <properties>
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";failed-payment(sek-card)" time="0.000088345">
+        <testcase name="Given that the machine is plugged in" classname=";failed-payment(sek-card)" time="0.000101821">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";failed-payment(sek-card)" time="0.000087725">
+        <testcase name="And that the machine has enough ground coffee" classname=";failed-payment(sek-card)" time="0.000079005">
         </testcase>
-        <testcase name="And that water is availble" classname=";failed-payment(sek-card)" time="0.000080558">
+        <testcase name="And that water is availble" classname=";failed-payment(sek-card)" time="0.000065956">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";failed-payment(sek-card)" time="0.00009025">
+        <testcase name="And the machine has enough plastic cups" classname=";failed-payment(sek-card)" time="0.000205001">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";failed-payment(sek-card)" time="0.000147793">
+        <testcase name="And the machine dispenses a cup" classname=";failed-payment(sek-card)" time="0.000104763">
         </testcase>
         <testcase name="When the user inserts the9" classname=";failed-payment(sek-card)">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And inserts 0" classname=";failed-payment(sek-card)">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And chooses the beverage 0" classname=";failed-payment(sek-card)">
+        <testcase name="And chooses the beverage Black coffee" classname=";failed-payment(sek-card)">
             <skipped message="">
             </skipped>
         </testcase>
@@ -403,39 +351,35 @@
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then the user recieves a cup of Black coffee" classname=";failed-payment(sek-card)">
+        <testcase name="Then the user does not receieves a cup of coffee" classname=";failed-payment(sek-card)">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And the user recives a &quot;card declined, not enough money&quot; message" classname=";failed-payment(sek-card)">
+        <testcase name="And the user receieves a &quot;card declined, not enough money&quot; message" classname=";failed-payment(sek-card)">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";failed-payment(sek-card)" tests="11" failures="0" skipped="6">
+    <testsuite name=";failed-payment(sek-card)" tests="10" failures="0" skipped="5">
         <properties>
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";failed-payment(sek-card)" time="0.000161918">
+        <testcase name="Given that the machine is plugged in" classname=";failed-payment(sek-card)" time="0.000117388">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";failed-payment(sek-card)" time="0.000099719">
+        <testcase name="And that the machine has enough ground coffee" classname=";failed-payment(sek-card)" time="0.000104184">
         </testcase>
-        <testcase name="And that water is availble" classname=";failed-payment(sek-card)" time="0.000068208">
+        <testcase name="And that water is availble" classname=";failed-payment(sek-card)" time="0.000075456">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";failed-payment(sek-card)" time="0.000072369">
+        <testcase name="And the machine has enough plastic cups" classname=";failed-payment(sek-card)" time="0.000438898">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";failed-payment(sek-card)" time="0.000070242">
+        <testcase name="And the machine dispenses a cup" classname=";failed-payment(sek-card)" time="0.000098">
         </testcase>
         <testcase name="When the user inserts the19" classname=";failed-payment(sek-card)">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And inserts 0" classname=";failed-payment(sek-card)">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And chooses the beverage 0" classname=";failed-payment(sek-card)">
+        <testcase name="And chooses the beverage Espresso" classname=";failed-payment(sek-card)">
             <skipped message="">
             </skipped>
         </testcase>
@@ -443,39 +387,35 @@
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then the user recieves a cup of Espresso" classname=";failed-payment(sek-card)">
+        <testcase name="Then the user does not receieves a cup of coffee" classname=";failed-payment(sek-card)">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And the user recives a &quot;card declined, not enough money&quot; message" classname=";failed-payment(sek-card)">
+        <testcase name="And the user receieves a &quot;card declined, not enough money&quot; message" classname=";failed-payment(sek-card)">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";failed-payment(sek-card)" tests="11" failures="0" skipped="6">
+    <testsuite name=";failed-payment(sek-card)" tests="10" failures="0" skipped="5">
         <properties>
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";failed-payment(sek-card)" time="0.000122435">
+        <testcase name="Given that the machine is plugged in" classname=";failed-payment(sek-card)" time="0.000113165">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";failed-payment(sek-card)" time="0.000075794">
+        <testcase name="And that the machine has enough ground coffee" classname=";failed-payment(sek-card)" time="0.000075116">
         </testcase>
-        <testcase name="And that water is availble" classname=";failed-payment(sek-card)" time="0.000071601">
+        <testcase name="And that water is availble" classname=";failed-payment(sek-card)" time="0.000068909">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";failed-payment(sek-card)" time="0.000060896">
+        <testcase name="And the machine has enough plastic cups" classname=";failed-payment(sek-card)" time="0.000070273">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";failed-payment(sek-card)" time="0.000056155">
+        <testcase name="And the machine dispenses a cup" classname=";failed-payment(sek-card)" time="0.000065942">
         </testcase>
         <testcase name="When the user inserts the29" classname=";failed-payment(sek-card)">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And inserts 0" classname=";failed-payment(sek-card)">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And chooses the beverage 0" classname=";failed-payment(sek-card)">
+        <testcase name="And chooses the beverage Cappuccino" classname=";failed-payment(sek-card)">
             <skipped message="">
             </skipped>
         </testcase>
@@ -483,11 +423,11 @@
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then the user recieves a cup of Cappuccino" classname=";failed-payment(sek-card)">
+        <testcase name="Then the user does not receieves a cup of coffee" classname=";failed-payment(sek-card)">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And the user recives a &quot;card declined, not enough money&quot; message" classname=";failed-payment(sek-card)">
+        <testcase name="And the user receieves a &quot;card declined, not enough money&quot; message" classname=";failed-payment(sek-card)">
             <skipped message="">
             </skipped>
         </testcase>
@@ -497,15 +437,15 @@
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.00011364">
+        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.000090903">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.000099445">
+        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.000139163">
         </testcase>
-        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.000064041">
+        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.000106741">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.000063762">
+        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.000069178">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.000073482">
+        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.00008084">
         </testcase>
         <testcase name="Given that the user has selected Black Coffee" classname=";the-machine-is-missing-something">
             <skipped message="">
@@ -529,15 +469,15 @@
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.000082014">
+        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.000134724">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.000114962">
+        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.000083556">
         </testcase>
-        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.000051839">
+        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.000068728">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.00004497">
+        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.00006527">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.000065787">
+        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.000057483">
         </testcase>
         <testcase name="Given that the user has selected Espresso" classname=";the-machine-is-missing-something">
             <skipped message="">
@@ -561,15 +501,15 @@
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.000085196">
+        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.000088654">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.000100038">
+        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.000081512">
         </testcase>
-        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.000073545">
+        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.000061796">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.000055674">
+        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.000050166">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.000058898">
+        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.000098556">
         </testcase>
         <testcase name="Given that the user has selected Cappuccino" classname=";the-machine-is-missing-something">
             <skipped message="">
@@ -593,15 +533,15 @@
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.000136543">
+        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.000118601">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.000101634">
+        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.000105755">
         </testcase>
-        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.000081171">
+        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.000076787">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.000069044">
+        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.000079247">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.000072938">
+        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.000077511">
         </testcase>
         <testcase name="Given that the user has selected Black Coffee" classname=";the-machine-is-missing-something">
             <skipped message="">
@@ -625,15 +565,15 @@
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.000085198">
+        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.00128878">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.000051276">
+        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.000077234">
         </testcase>
-        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.000056155">
+        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.000062737">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.000055757">
+        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.000062659">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.000058933">
+        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.000071436">
         </testcase>
         <testcase name="Given that the user has selected Espresso" classname=";the-machine-is-missing-something">
             <skipped message="">
@@ -657,15 +597,15 @@
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.000094046">
+        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.000107452">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.000087637">
+        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.000055989">
         </testcase>
-        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.000095904">
+        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.000057483">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.00007366">
+        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.000049146">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.000067925">
+        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.000042566">
         </testcase>
         <testcase name="Given that the user has selected Cappuccino" classname=";the-machine-is-missing-something">
             <skipped message="">
@@ -689,15 +629,15 @@
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.000094846">
+        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.000094054">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.000077541">
+        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.00010667">
         </testcase>
-        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.000079241">
+        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.000062">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.000070974">
+        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.000063184">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.000056969">
+        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.000089314">
         </testcase>
         <testcase name="Given that the user has selected Cappuccino" classname=";the-machine-is-missing-something">
             <skipped message="">
@@ -721,15 +661,15 @@
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.000077988">
+        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.000105786">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.000081941">
+        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.000076459">
         </testcase>
-        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.000070543">
+        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.000046216">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.00006658">
+        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.000048411">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.00005991">
+        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.000040304">
         </testcase>
         <testcase name="Given that the user has selected Black Coffee" classname=";the-machine-is-missing-something">
             <skipped message="">
@@ -753,15 +693,15 @@
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.000078959">
+        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.000092135">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.000091511">
+        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.000102001">
         </testcase>
-        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.00004991">
+        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.000080576">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.000071338">
+        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.000075582">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.000071694">
+        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.000063606">
         </testcase>
         <testcase name="Given that the user has selected Espresso" classname=";the-machine-is-missing-something">
             <skipped message="">
@@ -785,15 +725,15 @@
             <property name="URI" value="/Users/mariantowfik/Desktop/Cucumber/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.000097485">
+        <testcase name="Given that the machine is plugged in" classname=";the-machine-is-missing-something" time="0.000089195">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.000066861">
+        <testcase name="And that the machine has enough ground coffee" classname=";the-machine-is-missing-something" time="0.000097224">
         </testcase>
-        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.000055226">
+        <testcase name="And that water is availble" classname=";the-machine-is-missing-something" time="0.000074122">
         </testcase>
-        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.000045812">
+        <testcase name="And the machine has enough plastic cups" classname=";the-machine-is-missing-something" time="0.000054244">
         </testcase>
-        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.000040784">
+        <testcase name="And the machine dispenses a cup" classname=";the-machine-is-missing-something" time="0.000050606">
         </testcase>
         <testcase name="Given that the user has selected Cappuccino" classname=";the-machine-is-missing-something">
             <skipped message="">

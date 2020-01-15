@@ -36,63 +36,61 @@ Feature:
     When the user inserts <rightAmount> kr in cash
     And chooses the coffee type <coffeeType>
     And presses start
-    Then the user recieves a cup of <cupOfCoffee>
+    Then the user receieves a cup of <cupOfCoffee>
 
 
     Examples:
-      | rightAmount | cardPayment | coffeeType   | cupOfCoffee |
-      | 10          | 0           | Black coffee | 1           |
-      | 20          | 0           | Espresso     | 1           |
-      | 30          | 0           | Cappuccino   | 1           |
+      | rightAmount | coffeeType   | cupOfCoffee |
+      | 10          | Black coffee | coffee      |
+      | 20          | Espresso     | coffee      |
+      | 30          | Cappuccino   | coffee      |
 
   Scenario Outline: failed payment(cash)
 
-    When the user inserts the <wrongAmount>
+    When the user inserts the <wrongAmount> of cash
     And chooses the beverage <coffeeType>
     And presses start button
-    Then the user recieves a cup of <cupOfCoffee>
+    Then the user does not receieves a cup of <cupOfCoffee>
 
 
     Examples:
 
-      | wrongAmount | cardPayment | coffeeType | cupOfCoffee  | cup |
-      | 9           | 0           | 0          | Black coffee | 0   |
-      | 19          | 0           | 0          | Espresso     | 0   |
-      | 29          | 0           | 0          | Cappuccino   | 0   |
+      | wrongAmount | coffeeType   | cupOfCoffee |
+      | 9           | Black coffee | coffee      |
+      | 19          | Espresso     | coffee      |
+      | 29          | Cappuccino   | coffee      |
 
 
   Scenario Outline: right amount (SEK card)
     When the user inserts the <cardPayment>
-    And inserts <cash>
     And chooses the beverage <coffeeType>
     And presses start button
-    Then the user recieves a cup of <cupOfCoffee>
+    Then the user receieves a cup of <cupOfCoffee>
 
 
     Examples:
 
-      | cash | cardPayment | coffeeType | cupOfCoffee  | cup |
-      | 0    | 10          | 0          | Black coffee | 0   |
-      | 0    | 20          | 0          | Espresso     | 0   |
-      | 0    | 30          | 0          | Cappuccino   | 0   |
+      | cardPayment | coffeeType   | cupOfCoffee |
+      | 10          | Black coffee | coffee      |
+      | 20          | Espresso     | coffee      |
+      | 30          | Cappuccino   | coffee      |
 
 
 
   Scenario Outline: failed payment(SEK card)
     When the user inserts the<failedCardPayment>
-    And inserts <cash>
     And chooses the beverage <coffeeType>
     And presses start button
-    Then the user recieves a cup of <cupOfCoffee>
-    And the user recives a <error> message
+    Then the user does not receieves a cup of <cupOfCoffee>
+    And the user receieves a <error> message
 
 
     Examples:
 
-      | cash | failedCardPayment | coffeeType | cupOfCoffee  | cup | error                             |
-      | 0    | 9                 | 0          | Black coffee | 0   | "card declined, not enough money" |
-      | 0    | 19                | 0          | Espresso     | 0   | "card declined, not enough money" |
-      | 0    | 29                | 0          | Cappuccino   | 0   | "card declined, not enough money" |
+      | failedCardPayment | coffeeType   | cupOfCoffee | error                             |
+      | 9                 | Black coffee | coffee      | "card declined, not enough money" |
+      | 19                | Espresso     | coffee      | "card declined, not enough money" |
+      | 29                | Cappuccino   | coffee      | "card declined, not enough money" |
 
 
   Scenario Outline: The machine is missing something

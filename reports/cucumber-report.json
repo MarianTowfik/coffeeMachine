@@ -14,11 +14,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 1174471
+              "duration": 1085598
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 374143
+              "duration": 340572
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -40,11 +40,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 278390
+              "duration": 182357
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -53,11 +53,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 409910
+              "duration": 445823
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -66,11 +66,11 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 279103
+              "duration": 257209
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
@@ -79,11 +79,11 @@
             "name": "the machine dispenses the right amount of black coffee into a brewing pot",
             "result": {
               "status": "passed",
-              "duration": 166756
+              "duration": 263153
             },
             "line": 17,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:61"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:63"
             }
           },
           {
@@ -92,11 +92,11 @@
             "name": "the machine dispenses the right amount of water into a brewing pot",
             "result": {
               "status": "passed",
-              "duration": 205748
+              "duration": 234603
             },
             "line": 18,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:68"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:70"
             }
           },
           {
@@ -105,11 +105,11 @@
             "name": "the machine brews the coffee",
             "result": {
               "status": "passed",
-              "duration": 345877
+              "duration": 232084
             },
             "line": 19,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:117"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:205"
             }
           },
           {
@@ -117,7 +117,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1661627698
+              "duration": 1280526412
             },
             "hidden": true,
             "match": {
@@ -140,11 +140,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 143661
+              "duration": 142819
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -153,11 +153,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 118491
+              "duration": 113042
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -166,11 +166,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 97981
+              "duration": 152853
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -179,11 +179,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 93740
+              "duration": 123274
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -192,11 +192,11 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 114957
+              "duration": 124587
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
@@ -205,11 +205,11 @@
             "name": "the machine dispenses the right amount of coffee into a brewing pot",
             "result": {
               "status": "passed",
-              "duration": 373435
+              "duration": 197620
             },
             "line": 23,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:75"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:77"
             }
           },
           {
@@ -218,11 +218,11 @@
             "name": "the machine dispenses the right amount of water into a brewing pot",
             "result": {
               "status": "passed",
-              "duration": 129518
+              "duration": 91909
             },
             "line": 24,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:68"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:70"
             }
           },
           {
@@ -231,11 +231,11 @@
             "name": "the machine brews the coffee",
             "result": {
               "status": "passed",
-              "duration": 100565
+              "duration": 81962
             },
             "line": 25,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:117"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:205"
             }
           },
           {
@@ -243,7 +243,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1240363141
+              "duration": 1287202799
             },
             "hidden": true,
             "match": {
@@ -266,11 +266,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 132154
+              "duration": 112809
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -279,11 +279,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 104184
+              "duration": 80655
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -292,11 +292,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 96632
+              "duration": 86727
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -305,11 +305,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 103291
+              "duration": 85047
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -318,11 +318,11 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 94672
+              "duration": 71858
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
@@ -331,11 +331,11 @@
             "name": "the machine dispenses the right amount of coffee into a brewing pot",
             "result": {
               "status": "passed",
-              "duration": 113387
+              "duration": 75616
             },
             "line": 28,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:75"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:77"
             }
           },
           {
@@ -344,11 +344,11 @@
             "name": "the machine dispenses the right amount of water into a brewing pot",
             "result": {
               "status": "passed",
-              "duration": 291051
+              "duration": 78322
             },
             "line": 29,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:68"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:70"
             }
           },
           {
@@ -357,11 +357,11 @@
             "name": "the machine brews the coffee",
             "result": {
               "status": "passed",
-              "duration": 104898
+              "duration": 114470
             },
             "line": 30,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:117"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:205"
             }
           },
           {
@@ -370,11 +370,11 @@
             "name": "the machine heats the water to get the steam to the milk",
             "result": {
               "status": "passed",
-              "duration": 262168
+              "duration": 367254
             },
             "line": 31,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:83"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:85"
             }
           },
           {
@@ -383,11 +383,11 @@
             "name": "the machine has steamed the milk",
             "result": {
               "status": "passed",
-              "duration": 597816
+              "duration": 485178
             },
             "line": 32,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:90"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:92"
             }
           },
           {
@@ -396,11 +396,11 @@
             "name": "the machine adds the steamed milk on top of the coffee",
             "result": {
               "status": "passed",
-              "duration": 302435
+              "duration": 195995
             },
             "line": 33,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:97"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:99"
             }
           },
           {
@@ -408,7 +408,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1240270318
+              "duration": 1255524893
             },
             "hidden": true,
             "match": {
@@ -431,11 +431,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 157067
+              "duration": 145854
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -444,11 +444,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 62995
+              "duration": 89221
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -457,11 +457,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 62534
+              "duration": 115557
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -470,11 +470,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 54518
+              "duration": 79956
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -483,11 +483,11 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 56687
+              "duration": 69510
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
@@ -495,43 +495,59 @@
             "keyword": "When ",
             "name": "the user inserts 10 kr in cash",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 285108
             },
-            "line": 36
+            "line": 36,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:107"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "chooses the coffee type Black coffee",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 306137
             },
-            "line": 37
+            "line": 37,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:113"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "presses start",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 244620
             },
-            "line": 38
+            "line": 38,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:134"
+            }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the user recieves a cup of 1",
+            "name": "the user receieves a cup of coffee",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 249676
             },
-            "line": 39
+            "line": 39,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:140"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1244896546
+              "duration": 1280058834
             },
             "hidden": true,
             "match": {
@@ -554,11 +570,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 124355
+              "duration": 118040
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -567,11 +583,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 82867
+              "duration": 74613
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -580,11 +596,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 74013
+              "duration": 56037
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -593,11 +609,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 94632
+              "duration": 53085
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -606,11 +622,11 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 127914
+              "duration": 52063
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
@@ -618,43 +634,59 @@
             "keyword": "When ",
             "name": "the user inserts 20 kr in cash",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 58840
             },
-            "line": 36
+            "line": 36,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:107"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "chooses the coffee type Espresso",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 183491
             },
-            "line": 37
+            "line": 37,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:119"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "presses start",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 77148
             },
-            "line": 38
+            "line": 38,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:134"
+            }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the user recieves a cup of 1",
+            "name": "the user receieves a cup of coffee",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 106194
             },
-            "line": 39
+            "line": 39,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:140"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1237233633
+              "duration": 1259677380
             },
             "hidden": true,
             "match": {
@@ -677,11 +709,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 122660
+              "duration": 144500
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -690,11 +722,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 81125
+              "duration": 103290
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -703,11 +735,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 69900
+              "duration": 92596
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -716,11 +748,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 88796
+              "duration": 102413
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -729,11 +761,11 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 76104
+              "duration": 135554
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
@@ -741,43 +773,59 @@
             "keyword": "When ",
             "name": "the user inserts 30 kr in cash",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 132627
             },
-            "line": 36
+            "line": 36,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:107"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "chooses the coffee type Cappuccino",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 704322
             },
-            "line": 37
+            "line": 37,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:124"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "presses start",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 110839
             },
-            "line": 38
+            "line": 38,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:134"
+            }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the user recieves a cup of 1",
+            "name": "the user receieves a cup of coffee",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 171159
             },
-            "line": 39
+            "line": 39,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:140"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1193638466
+              "duration": 1291920768
             },
             "hidden": true,
             "match": {
@@ -800,11 +848,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 227578
+              "duration": 88905
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -813,11 +861,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 98092
+              "duration": 75127
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -826,11 +874,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 72695
+              "duration": 56080
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -839,11 +887,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 103625
+              "duration": 66445
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -852,26 +900,30 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 151080
+              "duration": 54577
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the user inserts the 9",
+            "name": "the user inserts the 9 of cash",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 221719
             },
-            "line": 50
+            "line": 50,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:146"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "chooses the beverage 0",
+            "name": "chooses the beverage Black coffee",
             "result": {
               "status": "undefined"
             },
@@ -889,7 +941,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the user recieves a cup of Black coffee",
+            "name": "the user does not receieves a cup of coffee",
             "result": {
               "status": "undefined"
             },
@@ -900,7 +952,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1303175702
+              "duration": 1242542431
             },
             "hidden": true,
             "match": {
@@ -923,11 +975,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 113911
+              "duration": 141226
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -936,11 +988,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 105897
+              "duration": 95312
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -949,11 +1001,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 88916
+              "duration": 89707
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -962,11 +1014,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 99232
+              "duration": 91229
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -975,26 +1027,30 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 121087
+              "duration": 77043
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the user inserts the 19",
+            "name": "the user inserts the 19 of cash",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 79552
             },
-            "line": 50
+            "line": 50,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:146"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "chooses the beverage 0",
+            "name": "chooses the beverage Espresso",
             "result": {
               "status": "undefined"
             },
@@ -1012,7 +1068,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the user recieves a cup of Espresso",
+            "name": "the user does not receieves a cup of coffee",
             "result": {
               "status": "undefined"
             },
@@ -1023,7 +1079,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1225739088
+              "duration": 1246617528
             },
             "hidden": true,
             "match": {
@@ -1046,11 +1102,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 149388
+              "duration": 129064
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -1059,11 +1115,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 212212
+              "duration": 105729
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -1072,11 +1128,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 177797
+              "duration": 89548
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -1085,11 +1141,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 128322
+              "duration": 108055
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -1098,26 +1154,30 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 863964
+              "duration": 108767
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the user inserts the 29",
+            "name": "the user inserts the 29 of cash",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 135577
             },
-            "line": 50
+            "line": 50,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:146"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "chooses the beverage 0",
+            "name": "chooses the beverage Cappuccino",
             "result": {
               "status": "undefined"
             },
@@ -1135,7 +1195,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the user recieves a cup of Cappuccino",
+            "name": "the user does not receieves a cup of coffee",
             "result": {
               "status": "undefined"
             },
@@ -1146,7 +1206,137 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1235484664
+              "duration": 1227225963
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";right-amount-(sek-card)",
+        "keyword": "Scenario",
+        "line": 74,
+        "name": "right amount (SEK card)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 102651
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 96071
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is availble",
+            "result": {
+              "status": "passed",
+              "duration": 82110
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has enough plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 110400
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine dispenses a cup",
+            "result": {
+              "status": "passed",
+              "duration": 115020
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts the 10",
+            "result": {
+              "status": "passed",
+              "duration": 284179
+            },
+            "line": 65,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:166"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "chooses the beverage Black coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 66
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses start button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 67
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user receieves a cup of coffee",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 68,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:140"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1225020361
             },
             "hidden": true,
             "match": {
@@ -1169,11 +1359,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 115193
+              "duration": 143973
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -1182,11 +1372,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 88792
+              "duration": 96504
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -1195,11 +1385,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 85444
+              "duration": 85544
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -1208,11 +1398,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 96517
+              "duration": 84885
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -1221,26 +1411,30 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 216981
+              "duration": 115859
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the user inserts the 10",
+            "name": "the user inserts the 20",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 138599
             },
-            "line": 65
+            "line": 65,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:166"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "inserts 0",
+            "name": "chooses the beverage Espresso",
             "result": {
               "status": "undefined"
             },
@@ -1249,7 +1443,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "chooses the beverage 0",
+            "name": "presses start button",
             "result": {
               "status": "undefined"
             },
@@ -1257,28 +1451,22 @@
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "name": "presses start button",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 68
-          },
-          {
-            "arguments": [],
             "keyword": "Then ",
-            "name": "the user recieves a cup of Black coffee",
+            "name": "the user receieves a cup of coffee",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 69
+            "line": 68,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:140"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1183929155
+              "duration": 1235518892
             },
             "hidden": true,
             "match": {
@@ -1301,11 +1489,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 87182
+              "duration": 114734
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -1314,11 +1502,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 88964
+              "duration": 91281
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -1327,11 +1515,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 63305
+              "duration": 133896
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -1340,11 +1528,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 73396
+              "duration": 230735
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -1353,26 +1541,30 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 77679
+              "duration": 98571
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the user inserts the 20",
+            "name": "the user inserts the 30",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 148744
             },
-            "line": 65
+            "line": 65,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:166"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "inserts 0",
+            "name": "chooses the beverage Cappuccino",
             "result": {
               "status": "undefined"
             },
@@ -1381,7 +1573,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "chooses the beverage 0",
+            "name": "presses start button",
             "result": {
               "status": "undefined"
             },
@@ -1389,28 +1581,22 @@
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "name": "presses start button",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 68
-          },
-          {
-            "arguments": [],
             "keyword": "Then ",
-            "name": "the user recieves a cup of Espresso",
+            "name": "the user receieves a cup of coffee",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 69
+            "line": 68,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:140"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1188025435
+              "duration": 1245540082
             },
             "hidden": true,
             "match": {
@@ -1422,10 +1608,10 @@
         "type": "scenario"
       },
       {
-        "id": ";right-amount-(sek-card)",
+        "id": ";failed-payment(sek-card)",
         "keyword": "Scenario",
-        "line": 77,
-        "name": "right amount (SEK card)",
+        "line": 91,
+        "name": "failed payment(SEK card)",
         "steps": [
           {
             "arguments": [],
@@ -1433,11 +1619,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 115840
+              "duration": 101821
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -1446,11 +1632,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 85200
+              "duration": 79005
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -1459,11 +1645,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 68202
+              "duration": 65956
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -1472,11 +1658,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 74514
+              "duration": 205001
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -1485,39 +1671,30 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 78387
+              "duration": 104763
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the user inserts the 30",
+            "name": "the user inserts the9",
             "result": {
               "status": "undefined"
             },
-            "line": 65
+            "line": 81
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "inserts 0",
+            "name": "chooses the beverage Black coffee",
             "result": {
               "status": "undefined"
             },
-            "line": 66
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "chooses the beverage 0",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 67
+            "line": 82
           },
           {
             "arguments": [],
@@ -1526,23 +1703,164 @@
             "result": {
               "status": "undefined"
             },
-            "line": 68
+            "line": 83
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the user recieves a cup of Cappuccino",
+            "name": "the user does not receieves a cup of coffee",
             "result": {
               "status": "undefined"
             },
-            "line": 69
+            "line": 84
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user receieves a \"card declined, not enough money\" message",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 85
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1237669269
+              "duration": 1205392392
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";failed-payment(sek-card)",
+        "keyword": "Scenario",
+        "line": 92,
+        "name": "failed payment(SEK card)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 117388
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 104184
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is availble",
+            "result": {
+              "status": "passed",
+              "duration": 75456
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has enough plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 438898
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine dispenses a cup",
+            "result": {
+              "status": "passed",
+              "duration": 98000
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts the19",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 81
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "chooses the beverage Espresso",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 82
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses start button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 83
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user does not receieves a cup of coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 84
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user receieves a \"card declined, not enough money\" message",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 85
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1240026051
             },
             "hidden": true,
             "match": {
@@ -1565,11 +1883,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 88345
+              "duration": 113165
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -1578,11 +1896,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 87725
+              "duration": 75116
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -1591,11 +1909,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 80558
+              "duration": 68909
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -1604,11 +1922,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 90250
+              "duration": 70273
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -1617,293 +1935,11 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 147793
+              "duration": 65942
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user inserts the9",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 82
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "inserts 0",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 83
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "chooses the beverage 0",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 84
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses start button",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 85
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the user recieves a cup of Black coffee",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 86
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user recives a \"card declined, not enough money\" message",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 87
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1244919436
-            },
-            "hidden": true,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/node_modules/selenium-cucumber-js/runtime/world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";failed-payment(sek-card)",
-        "keyword": "Scenario",
-        "line": 94,
-        "name": "failed payment(SEK card)",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 161918
-            },
-            "line": 9,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough ground coffee",
-            "result": {
-              "status": "passed",
-              "duration": 99719
-            },
-            "line": 10,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that water is availble",
-            "result": {
-              "status": "passed",
-              "duration": 68208
-            },
-            "line": 11,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has enough plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 72369
-            },
-            "line": 12,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine dispenses a cup",
-            "result": {
-              "status": "passed",
-              "duration": 70242
-            },
-            "line": 13,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user inserts the19",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 82
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "inserts 0",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 83
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "chooses the beverage 0",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 84
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses start button",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 85
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the user recieves a cup of Espresso",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 86
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user recives a \"card declined, not enough money\" message",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 87
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1237936128
-            },
-            "hidden": true,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/node_modules/selenium-cucumber-js/runtime/world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";failed-payment(sek-card)",
-        "keyword": "Scenario",
-        "line": 95,
-        "name": "failed payment(SEK card)",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 122435
-            },
-            "line": 9,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough ground coffee",
-            "result": {
-              "status": "passed",
-              "duration": 75794
-            },
-            "line": 10,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that water is availble",
-            "result": {
-              "status": "passed",
-              "duration": 71601
-            },
-            "line": 11,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has enough plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 60896
-            },
-            "line": 12,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine dispenses a cup",
-            "result": {
-              "status": "passed",
-              "duration": 56155
-            },
-            "line": 13,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
@@ -1913,25 +1949,16 @@
             "result": {
               "status": "undefined"
             },
+            "line": 81
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "chooses the beverage Cappuccino",
+            "result": {
+              "status": "undefined"
+            },
             "line": 82
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "inserts 0",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 83
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "chooses the beverage 0",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 84
           },
           {
             "arguments": [],
@@ -1940,32 +1967,278 @@
             "result": {
               "status": "undefined"
             },
-            "line": 85
+            "line": 83
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the user recieves a cup of Cappuccino",
+            "name": "the user does not receieves a cup of coffee",
             "result": {
               "status": "undefined"
             },
-            "line": 86
+            "line": 84
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user recives a \"card declined, not enough money\" message",
+            "name": "the user receieves a \"card declined, not enough money\" message",
             "result": {
               "status": "undefined"
             },
-            "line": 87
+            "line": 85
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1236423473
+              "duration": 1162664255
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";the-machine-is-missing-something",
+        "keyword": "Scenario",
+        "line": 104,
+        "name": "The machine is missing something",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 90903
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 139163
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is availble",
+            "result": {
+              "status": "passed",
+              "duration": 106741
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has enough plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 69178
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine dispenses a cup",
+            "result": {
+              "status": "passed",
+              "duration": 80840
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected Black Coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 97
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is not enough of ground coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 98
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "you press the start button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 99
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the machine displays \"not enough ground coffee, please refill ground coffee\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 100
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1238710931
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";the-machine-is-missing-something",
+        "keyword": "Scenario",
+        "line": 105,
+        "name": "The machine is missing something",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 134724
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 83556
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is availble",
+            "result": {
+              "status": "passed",
+              "duration": 68728
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has enough plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 65270
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine dispenses a cup",
+            "result": {
+              "status": "passed",
+              "duration": 57483
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected Espresso",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 97
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is not enough of water",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 98
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "you press the start button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 99
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the machine displays \"could not find water, please contact support\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 100
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1167565299
             },
             "hidden": true,
             "match": {
@@ -1988,11 +2261,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 113640
+              "duration": 88654
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -2001,11 +2274,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 99445
+              "duration": 81512
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -2014,11 +2287,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 64041
+              "duration": 61796
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -2027,11 +2300,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 63762
+              "duration": 50166
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -2040,30 +2313,30 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 73482
+              "duration": 98556
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that the user has selected Black Coffee",
+            "name": "that the user has selected Cappuccino",
             "result": {
               "status": "undefined"
             },
-            "line": 99
+            "line": 97
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "there is not enough of ground coffee",
+            "name": "there is not enough of milk",
             "result": {
               "status": "undefined"
             },
-            "line": 100
+            "line": 98
           },
           {
             "arguments": [],
@@ -2072,23 +2345,23 @@
             "result": {
               "status": "undefined"
             },
-            "line": 101
+            "line": 99
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the machine displays \"not enough ground coffee, please refill ground coffee\"",
+            "name": "the machine displays \"not enough milk, please refill milk\"",
             "result": {
               "status": "undefined"
             },
-            "line": 102
+            "line": 100
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1230940741
+              "duration": 1227660439
             },
             "hidden": true,
             "match": {
@@ -2111,11 +2384,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 82014
+              "duration": 118601
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -2124,11 +2397,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 114962
+              "duration": 105755
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -2137,11 +2410,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 51839
+              "duration": 76787
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -2150,11 +2423,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 44970
+              "duration": 79247
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -2163,21 +2436,21 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 65787
+              "duration": 77511
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that the user has selected Espresso",
+            "name": "that the user has selected Black Coffee",
             "result": {
               "status": "undefined"
             },
-            "line": 99
+            "line": 97
           },
           {
             "arguments": [],
@@ -2186,7 +2459,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 100
+            "line": 98
           },
           {
             "arguments": [],
@@ -2195,7 +2468,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 101
+            "line": 99
           },
           {
             "arguments": [],
@@ -2204,14 +2477,14 @@
             "result": {
               "status": "undefined"
             },
-            "line": 102
+            "line": 100
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1239065952
+              "duration": 1242091675
             },
             "hidden": true,
             "match": {
@@ -2234,11 +2507,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 85196
+              "duration": 1288780
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -2247,11 +2520,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 100038
+              "duration": 77234
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -2260,11 +2533,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 73545
+              "duration": 62737
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -2273,11 +2546,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 55674
+              "duration": 62659
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -2286,30 +2559,30 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 58898
+              "duration": 71436
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that the user has selected Cappuccino",
+            "name": "that the user has selected Espresso",
             "result": {
               "status": "undefined"
             },
-            "line": 99
+            "line": 97
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "there is not enough of milk",
+            "name": "there is not enough of coffee",
             "result": {
               "status": "undefined"
             },
-            "line": 100
+            "line": 98
           },
           {
             "arguments": [],
@@ -2318,23 +2591,23 @@
             "result": {
               "status": "undefined"
             },
-            "line": 101
+            "line": 99
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the machine displays \"not enough milk, please refill milk\"",
+            "name": "the machine displays \"not enough ground coffee, please refill ground coffee\"",
             "result": {
               "status": "undefined"
             },
-            "line": 102
+            "line": 100
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1243259267
+              "duration": 1241632743
             },
             "hidden": true,
             "match": {
@@ -2357,11 +2630,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 136543
+              "duration": 107452
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -2370,11 +2643,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 101634
+              "duration": 55989
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -2383,11 +2656,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 81171
+              "duration": 57483
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -2396,11 +2669,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 69044
+              "duration": 49146
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -2409,30 +2682,30 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 72938
+              "duration": 42566
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that the user has selected Black Coffee",
+            "name": "that the user has selected Cappuccino",
             "result": {
               "status": "undefined"
             },
-            "line": 99
+            "line": 97
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "there is not enough of water",
+            "name": "there is not enough of coffee",
             "result": {
               "status": "undefined"
             },
-            "line": 100
+            "line": 98
           },
           {
             "arguments": [],
@@ -2441,23 +2714,23 @@
             "result": {
               "status": "undefined"
             },
-            "line": 101
+            "line": 99
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the machine displays \"could not find water, please contact support\"",
+            "name": "the machine displays \"not enough ground coffee, please refill ground coffee\"",
             "result": {
               "status": "undefined"
             },
-            "line": 102
+            "line": 100
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1193410939
+              "duration": 1173563862
             },
             "hidden": true,
             "match": {
@@ -2480,11 +2753,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 85198
+              "duration": 94054
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -2493,11 +2766,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 51276
+              "duration": 106670
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -2506,11 +2779,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 56155
+              "duration": 62000
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -2519,11 +2792,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 55757
+              "duration": 63184
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -2532,30 +2805,30 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 58933
+              "duration": 89314
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that the user has selected Espresso",
+            "name": "that the user has selected Cappuccino",
             "result": {
               "status": "undefined"
             },
-            "line": 99
+            "line": 97
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "there is not enough of coffee",
+            "name": "there is not enough of water",
             "result": {
               "status": "undefined"
             },
-            "line": 100
+            "line": 98
           },
           {
             "arguments": [],
@@ -2564,23 +2837,23 @@
             "result": {
               "status": "undefined"
             },
-            "line": 101
+            "line": 99
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the machine displays \"not enough ground coffee, please refill ground coffee\"",
+            "name": "the machine displays \"could not find water, please contact support\"",
             "result": {
               "status": "undefined"
             },
-            "line": 102
+            "line": 100
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1238217921
+              "duration": 1240332363
             },
             "hidden": true,
             "match": {
@@ -2603,11 +2876,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 94046
+              "duration": 105786
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -2616,11 +2889,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 87637
+              "duration": 76459
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -2629,11 +2902,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 95904
+              "duration": 46216
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -2642,11 +2915,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 73660
+              "duration": 48411
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -2655,30 +2928,30 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 67925
+              "duration": 40304
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that the user has selected Cappuccino",
+            "name": "that the user has selected Black Coffee",
             "result": {
               "status": "undefined"
             },
-            "line": 99
+            "line": 97
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "there is not enough of coffee",
+            "name": "there is not enough of cup",
             "result": {
               "status": "undefined"
             },
-            "line": 100
+            "line": 98
           },
           {
             "arguments": [],
@@ -2687,23 +2960,23 @@
             "result": {
               "status": "undefined"
             },
-            "line": 101
+            "line": 99
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the machine displays \"not enough ground coffee, please refill ground coffee\"",
+            "name": "the machine displays \"not enough cups in the machine, please refill cups \"",
             "result": {
               "status": "undefined"
             },
-            "line": 102
+            "line": 100
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1229796402
+              "duration": 1237611945
             },
             "hidden": true,
             "match": {
@@ -2726,11 +2999,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 94846
+              "duration": 92135
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -2739,11 +3012,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 77541
+              "duration": 102001
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -2752,11 +3025,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 79241
+              "duration": 80576
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -2765,11 +3038,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 70974
+              "duration": 75582
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -2778,30 +3051,30 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 56969
+              "duration": 63606
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that the user has selected Cappuccino",
+            "name": "that the user has selected Espresso",
             "result": {
               "status": "undefined"
             },
-            "line": 99
+            "line": 97
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "there is not enough of water",
+            "name": "there is not enough of cup",
             "result": {
               "status": "undefined"
             },
-            "line": 100
+            "line": 98
           },
           {
             "arguments": [],
@@ -2810,23 +3083,23 @@
             "result": {
               "status": "undefined"
             },
-            "line": 101
+            "line": 99
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the machine displays \"could not find water, please contact support\"",
+            "name": "the machine displays \"not enough cups in the machine, please refill cups \"",
             "result": {
               "status": "undefined"
             },
-            "line": 102
+            "line": 100
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1243661777
+              "duration": 1221858308
             },
             "hidden": true,
             "match": {
@@ -2849,11 +3122,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 77988
+              "duration": 89195
             },
             "line": 9,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:17"
             }
           },
           {
@@ -2862,11 +3135,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 81941
+              "duration": 97224
             },
             "line": 10,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:42"
             }
           },
           {
@@ -2875,11 +3148,11 @@
             "name": "that water is availble",
             "result": {
               "status": "passed",
-              "duration": 70543
+              "duration": 74122
             },
             "line": 11,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:33"
             }
           },
           {
@@ -2888,11 +3161,11 @@
             "name": "the machine has enough plastic cups",
             "result": {
               "status": "passed",
-              "duration": 66580
+              "duration": 54244
             },
             "line": 12,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:49"
             }
           },
           {
@@ -2901,257 +3174,11 @@
             "name": "the machine dispenses a cup",
             "result": {
               "status": "passed",
-              "duration": 59910
+              "duration": 50606
             },
             "line": 13,
             "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the user has selected Black Coffee",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 99
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "there is not enough of cup",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 100
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "you press the start button",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 101
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the machine displays \"not enough cups in the machine, please refill cups \"",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 102
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1240087480
-            },
-            "hidden": true,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/node_modules/selenium-cucumber-js/runtime/world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";the-machine-is-missing-something",
-        "keyword": "Scenario",
-        "line": 114,
-        "name": "The machine is missing something",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 78959
-            },
-            "line": 9,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough ground coffee",
-            "result": {
-              "status": "passed",
-              "duration": 91511
-            },
-            "line": 10,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that water is availble",
-            "result": {
-              "status": "passed",
-              "duration": 49910
-            },
-            "line": 11,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has enough plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 71338
-            },
-            "line": 12,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine dispenses a cup",
-            "result": {
-              "status": "passed",
-              "duration": 71694
-            },
-            "line": 13,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the user has selected Espresso",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 99
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "there is not enough of cup",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 100
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "you press the start button",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 101
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the machine displays \"not enough cups in the machine, please refill cups \"",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 102
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1237681146
-            },
-            "hidden": true,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/node_modules/selenium-cucumber-js/runtime/world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";the-machine-is-missing-something",
-        "keyword": "Scenario",
-        "line": 115,
-        "name": "The machine is missing something",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 97485
-            },
-            "line": 9,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:15"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough ground coffee",
-            "result": {
-              "status": "passed",
-              "duration": 66861
-            },
-            "line": 10,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:40"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that water is availble",
-            "result": {
-              "status": "passed",
-              "duration": 55226
-            },
-            "line": 11,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:31"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has enough plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 45812
-            },
-            "line": 12,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:47"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine dispenses a cup",
-            "result": {
-              "status": "passed",
-              "duration": 40784
-            },
-            "line": 13,
-            "match": {
-              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:55"
+              "location": "/Users/mariantowfik/Desktop/Cucumber/step-definitions/coffee-machine.js:57"
             }
           },
           {
@@ -3161,7 +3188,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 99
+            "line": 97
           },
           {
             "arguments": [],
@@ -3170,7 +3197,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 100
+            "line": 98
           },
           {
             "arguments": [],
@@ -3179,7 +3206,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 101
+            "line": 99
           },
           {
             "arguments": [],
@@ -3188,14 +3215,14 @@
             "result": {
               "status": "undefined"
             },
-            "line": 102
+            "line": 100
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1204754253
+              "duration": 1235031808
             },
             "hidden": true,
             "match": {

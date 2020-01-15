@@ -14,6 +14,14 @@ class CoffeeMachine {
     this.heatedWater = false;
     this.steamedMilk = false;
     this.addTheSteamedMilk = false;
+    this.insertedCash = ('');
+    this.chosenBlackCoffee = false;
+    this.pressedStart = false;
+    this.receivedCoffee = false;
+    this.chosenEspresso = false;
+    this.chosenCappuccino = false;
+    this.payedWithCard = 0;
+    this.notEnoughCash = 0;
 
     
 
@@ -69,6 +77,59 @@ class CoffeeMachine {
     this.addTheSteamedMilk = true;
   }
 
+
+  insertCash(amount) {
+    this.insertedCash = amount;
+  }
+
+  chooseBlackCoffee() {
+    this.chosenBlackCoffee = true;
+  }
+
+  chooseEspresso() {
+    this.chosenEspresso = true;
+  }
+  chooseCappuccino() {
+    this.chosenCappuccino = true;
+  }
+
+
+  pressStart() {
+    this.pressedStart = true;
+  }
+
+  receiveCoffee() {
+    this.receivedCoffee = true;
+  }
+  
+  notHaveCash(amount) {
+    this.notEnoughCash = amount;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  payWithCard(amount) {
+    this.payedWithCard = amount;
+  }
 
 
 

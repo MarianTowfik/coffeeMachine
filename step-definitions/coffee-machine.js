@@ -11,6 +11,8 @@ let myMachine = new CoffeeMachine();
 //so that cucumber can read and use them
 module.exports = function () {
 
+  let coffeeType
+
 
   this.Given(/^that the machine is plugged in$/,
 
@@ -100,12 +102,98 @@ module.exports = function () {
       assert.deepEqual(myMachine.addTheSteamedMilk, true);
   });
   
+  //scenario outline 1
+
+  this.When(/^the user inserts (\d+) kr in cash$/, function (rightAmount) {
+    myMachine.insertCash(rightAmount)
+    assert.deepEqual(myMachine.insertedCash, rightAmount);
+  });
   
   
+  this.Then(/^chooses the coffee type Black coffee$/, function () {
+    myMachine.chooseBlackCoffee()
+    assert.strictEqual(myMachine.chosenBlackCoffee, true);
+  });
+
+
+  this.Then(/^chooses the coffee type Espresso$/, function () {
+    myMachine.chooseEspresso()
+    assert.strictEqual(myMachine.chosenEspresso, true);
+  });
+
+  this.Then(/^chooses the coffee type Cappuccino$/, function () {
+    myMachine.chooseCappuccino()
+    assert.strictEqual(myMachine.chosenCappuccino, true);
+  });
+
+
+
+
+
+
+  this.Then(/^presses start$/, function () {
+    myMachine.pressStart()
+    assert.strictEqual(myMachine.pressedStart, true);
+  });
   
   
+  this.Then(/^the user receieves a cup of coffee$/, function () {
+    myMachine.receiveCoffee()
+    assert.strictEqual(myMachine.receivedCoffee, true);
+  });
   
-  
+
+  this.When(/^the user inserts the (\d+) of cash$/, function (wrongAmount) {
+    myMachine.notHaveCash(wrongAmount)
+    assert.deepEqual(myMachine.notEnoughCash, wrongAmount);
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  this.When(/^the user inserts the (\d+)$/, function (cardPayment) {
+    myMachine.payWithCard(cardPayment)
+    assert.deepEqual(myMachine.payedWithCard, cardPayment );
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
   this.When(/^presses a start button$/, function () {
