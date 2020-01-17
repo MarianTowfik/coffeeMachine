@@ -48,8 +48,8 @@ Feature:
   Scenario Outline: failed payment(cash)
 
     When the user inserts the <wrongAmount> of cash
-    And chooses the beverage <coffeeType>
-    And presses start button
+    And chooses the coffee type <coffeeType>
+    And presses start 
     Then the user does not receieves a cup of <cupOfCoffee>
 
 
@@ -63,8 +63,8 @@ Feature:
 
   Scenario Outline: right amount (SEK card)
     When the user inserts the <cardPayment>
-    And chooses the beverage <coffeeType>
-    And presses start button
+    And chooses the coffee type <coffeeType>
+    And presses start 
     Then the user receieves a cup of <cupOfCoffee>
 
 
@@ -78,9 +78,9 @@ Feature:
 
 
   Scenario Outline: failed payment(SEK card)
-    When the user inserts the<failedCardPayment>
-    And chooses the beverage <coffeeType>
-    And presses start button
+    When the user inserts the <failedCardPayment> 
+    And chooses the coffee type <coffeeType>
+    And presses start 
     Then the user does not receieves a cup of <cupOfCoffee>
     And the user receieves a <error> message
 
@@ -88,9 +88,9 @@ Feature:
     Examples:
 
       | failedCardPayment | coffeeType   | cupOfCoffee | error                             |
-      | 9                 | Black coffee | coffee      | "card declined, not enough money" |
-      | 19                | Espresso     | coffee      | "card declined, not enough money" |
-      | 29                | Cappuccino   | coffee      | "card declined, not enough money" |
+      | 9                 | Black coffee | coffee      | card declined, not enough money |
+      | 19                | Espresso     | coffee      | card declined, not enough money |
+      | 29                | Cappuccino   | coffee      | card declined, not enough money |
 
 
   Scenario Outline: The machine is missing something

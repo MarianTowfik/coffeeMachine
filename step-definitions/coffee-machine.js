@@ -11,9 +11,6 @@ let myMachine = new CoffeeMachine();
 //so that cucumber can read and use them
 module.exports = function () {
 
-  let coffeeType
-
-
   this.Given(/^that the machine is plugged in$/,
 
     function () {
@@ -80,7 +77,11 @@ module.exports = function () {
       assert.strictEqual(myMachine.dispensedCoffee, 6);
   });
   
-  
+  this.Then(/^the machine brews the coffee$/, function () {
+    myMachine.brewCoffee()
+    assert.strictEqual(myMachine.brewTheCoffee, true);
+  });
+
   
   this.Then(/^the machine heats the water to get the steam to the milk$/,
     function () {
@@ -127,10 +128,6 @@ module.exports = function () {
   });
 
 
-
-
-
-
   this.Then(/^presses start$/, function () {
     myMachine.pressStart()
     assert.strictEqual(myMachine.pressedStart, true);
@@ -149,18 +146,21 @@ module.exports = function () {
   });
 
 
+  this.Then(/^the user does not receieves a cup of coffee$/, function () {
+    myMachine.notReceiveCoffee()
+    assert.strictEqual(myMachine.notReceivingAnyCoffee, true);
+  });
 
+  this.Then(/^chooses the beverage Black coffee$/, function () {
+    myMachine.selectBlackCoffee()
+    assert.strictEqual(myMachine.selectedBlackCoffee, true);
+  });
 
-
-
-
-
-
-
-
-
-
-
+  this.Then(/^the user receieves a card declined, not enough money message$/,
+    function () {
+      myMachine.errorMessage()
+      assert.deepEqual(myMachine.theErrorMessage, true);
+  });
 
 
   this.When(/^the user inserts the (\d+)$/, function (cardPayment) {
@@ -169,7 +169,10 @@ module.exports = function () {
   });
 
 
+  
 
+  
+ 
 
 
 
@@ -196,23 +199,7 @@ module.exports = function () {
 
   
   
-  this.When(/^presses a start button$/, function () {
-    myMachine.pressStartButton();
-    assert.strictEqual(myMachine.pressStart, true, "expected property pressStartButton to be true after calling the method pressStartButton ");
-  });
-
   
-  this.Then(/^the machine brews the coffee$/, function () {
-    myMachine.brewCoffee()
-    assert.strictEqual(myMachine.brewTheCoffee, true);
-  });
-
-  this.Then(/^the user recieves a cup of coffee\.$/,
-    function () {
-      myMachine.receivingCupOfCoffee()
-      assert.strictEqual(myMachine.receivingACupOfCoffee, true);
-    });
-
   
   
 
