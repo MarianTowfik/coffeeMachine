@@ -63,26 +63,29 @@ module.exports = function () {
       assert.isAtMost(myMachine.rightAmountOfBlackCoffee, 13)
     });
 
-
+//alla
   this.Given(/^the machine dispenses the right amount of water into a brewing pot$/,
     function () {
       myMachine.dispenseWater(2)
       assert.strictEqual(myMachine.dispenseTheWater, 2);
     });
 
-
+  //alla
+  this.Then(/^the machine brews the coffee$/, function () {
+    myMachine.brewCoffee()
+    assert.strictEqual(myMachine.brewTheCoffee, true);
+  });
+  
+  //espresso, cappuccino
   this.Then(/^the machine dispenses the right amount of coffee into a brewing pot$/,
     function () {
       myMachine.dispenseCoffee(6)
       assert.strictEqual(myMachine.dispensedCoffee, 6);
   });
   
-  this.Then(/^the machine brews the coffee$/, function () {
-    myMachine.brewCoffee()
-    assert.strictEqual(myMachine.brewTheCoffee, true);
-  });
-
   
+
+  //Cappuccino
   this.Then(/^the machine heats the water to get the steam to the milk$/,
     function () {
       myMachine.heatWater()
@@ -103,7 +106,7 @@ module.exports = function () {
       assert.deepEqual(myMachine.addTheSteamedMilk, true);
   });
   
-  //scenario outline 1
+  //right amount (cash 10, 20, 30kr)
 
   this.When(/^the user inserts (\d+) kr in cash$/, function (rightAmount) {
     myMachine.insertCash(rightAmount)
@@ -139,7 +142,7 @@ module.exports = function () {
     assert.strictEqual(myMachine.receivedCoffee, true);
   });
   
-
+// wrong amount (cash, 9, 19, 29kr)
   this.When(/^the user inserts the (\d+) of cash$/, function (wrongAmount) {
     myMachine.notHaveCash(wrongAmount)
     assert.deepEqual(myMachine.notEnoughCash, wrongAmount);
@@ -151,16 +154,14 @@ module.exports = function () {
     assert.strictEqual(myMachine.notReceivingAnyCoffee, true);
   });
 
-  this.Then(/^chooses the beverage Black coffee$/, function () {
-    myMachine.selectBlackCoffee()
-    assert.strictEqual(myMachine.selectedBlackCoffee, true);
-  });
 
-  this.Then(/^the user receieves a card declined, not enough money message$/,
-    function () {
-      myMachine.errorMessage()
-      assert.deepEqual(myMachine.theErrorMessage, true);
-  });
+
+  //this.Then(/^ not enough money message$/, function () {
+    //myMachine.notEnoughCash()
+    //assert.deepEqual(myMachine.notEnoughOfCashError, "error");
+  //});
+
+
 
 
   this.When(/^the user inserts the (\d+)$/, function (cardPayment) {
@@ -168,7 +169,10 @@ module.exports = function () {
     assert.deepEqual(myMachine.payedWithCard, cardPayment );
   });
 
-
+  this.When(/^the user inserts the (\d+) amount$/, function (failedCardPayment) {
+    myMachine.failingCardPayment(failedCardPayment)
+    assert.deepEqual(myMachine.failedWithCard, failedCardPayment);
+  });
   
 
   

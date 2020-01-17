@@ -49,22 +49,22 @@ Feature:
 
     When the user inserts the <wrongAmount> of cash
     And chooses the coffee type <coffeeType>
-    And presses start 
+    And presses start
     Then the user does not receieves a cup of <cupOfCoffee>
 
 
     Examples:
 
-      | wrongAmount | coffeeType   | cupOfCoffee |
-      | 9           | Black coffee | coffee      |
-      | 19          | Espresso     | coffee      |
-      | 29          | Cappuccino   | coffee      |
+      | wrongAmount | coffeeType   | cupOfCoffee | 
+      | 9           | Black coffee | coffee      | 
+      | 19          | Espresso     | coffee      |  
+      | 29          | Cappuccino   | coffee      | 
 
 
   Scenario Outline: right amount (SEK card)
     When the user inserts the <cardPayment>
     And chooses the coffee type <coffeeType>
-    And presses start 
+    And presses start
     Then the user receieves a cup of <cupOfCoffee>
 
 
@@ -78,19 +78,19 @@ Feature:
 
 
   Scenario Outline: failed payment(SEK card)
-    When the user inserts the <failedCardPayment> 
+    When the user inserts the <failedCardPayment> amount
     And chooses the coffee type <coffeeType>
-    And presses start 
+    And presses start
     Then the user does not receieves a cup of <cupOfCoffee>
-    And the user receieves a <error> message
+
 
 
     Examples:
 
-      | failedCardPayment | coffeeType   | cupOfCoffee | error                             |
-      | 9                 | Black coffee | coffee      | card declined, not enough money |
-      | 19                | Espresso     | coffee      | card declined, not enough money |
-      | 29                | Cappuccino   | coffee      | card declined, not enough money |
+      | failedCardPayment | coffeeType   | cupOfCoffee | 
+      | 9                 | Black coffee | coffee      | 
+      | 19                | Espresso     | coffee      | 
+      | 29                | Cappuccino   | coffee      | 
 
 
   Scenario Outline: The machine is missing something

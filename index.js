@@ -25,6 +25,8 @@ class CoffeeMachine {
     this.selectedBlackCoffee = false;
     this.notReceivingAnyCoffee = false;
     this.theErrorMessage = false;
+    this.failedWithCard = 0;
+    this.notEnoughOfCashError = false;
 
 
     
@@ -111,7 +113,10 @@ class CoffeeMachine {
   notHaveCash(amount) {
     this.notEnoughCash = amount;
   }
-  
+  /*notEnoughCash(){
+    this.notEnoughOfCashError = true;
+}
+*/
   selectBlackCoffee() {
       this.selectedBlackCoffee = true;
   }
@@ -120,21 +125,14 @@ class CoffeeMachine {
     this.notReceivingAnyCoffee = true;
   }
   
-  errorMessage() {
-    let notEnoughCash = this.notEnoughCash;
-    let insertedCash = this.insertedCash;
-    let theErrorMessage 
-    if (insertedCash >= notEnoughCash)
-      this.theErrorMessage = true;
-    return theErrorMessage;
-    
-  }
-  
   payWithCard(amount) {
     this.payedWithCard = amount;
+    
   }
+  failingCardPayment(amount) {
+  this.failedWithCard = amount;
 
-
+}
 
 }
 
