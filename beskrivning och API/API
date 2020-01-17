@@ -25,3 +25,29 @@ rightAmountOfBlackCoffee (number)
  -describes how much coffee there should be in the darkest coffee beverage, and for each beverage you can have less
 
 
+ 
+    this.brewTheCoffee (boolean)
+    Initial value: false;
+    -describes
+
+
+
+
+    this.dispenseTheWater = 0;
+    this.dispensedCoffee = 0;
+    this.heatedWater = false;
+    this.steamedMilk = false;
+    this.addTheSteamedMilk = false;
+    this.insertedCash = ('');
+    this.chosenBlackCoffee = false;
+    this.pressedStart = false;
+    this.receivedCoffee = false;
+    this.chosenEspresso = false;
+    this.chosenCappuccino = false;
+    this.payedWithCard = 0;
+    this.notEnoughCash = 0;
+    this.selectedBlackCoffee = false;
+    this.notReceivingAnyCoffee = false;
+    this.theErrorMessage = false;
+    this.failedWithCard = 0;
+    this.notEnoughOfCashError = false;
